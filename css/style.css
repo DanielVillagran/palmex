@@ -1,0 +1,309 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+p {
+    margin-bottom: 0px
+}
+
+.valign {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.body-home .modal-backdrop {
+    opacity: 0;
+}
+
+.btn {
+    font-size: 14px;
+}
+
+.btn:active,
+.btn:focus {
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.form-control:active,
+.form-control:focus {
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.one-line {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.three-lines-table {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    padding-top: 9px !important;
+    padding-bottom: 0px !important;
+}
+
+
+.two-lines {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.three-lines {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.header-home {
+    background-color: #000000;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 100vh;
+}
+
+body.body-bg {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.viva-mexico {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg-viva-mexico.jpg);
+}
+
+.d-text-home {
+    text-align: right;
+    margin-top: calc(100vh - 300px);
+}
+
+.badge-home {
+    background-color: #EE1C23;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.badge-home > sup {
+    font-size: 12px;
+}
+
+.modal-home .modal-content {
+    border: none;
+    background-color: transparent;
+}
+
+.modal-body {
+    background-color: transparent;
+}
+
+.d-preloader {
+    text-align: center;
+}
+
+.body-black {
+    background-color: #000000;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg-black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 100vh;
+}
+
+.body-producto {
+    background-color: #000000;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg-black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    min-height: 100vh;
+    transition: .3s;
+}
+
+.d-title-cat {
+    text-align: center;
+}
+
+.d-title-cat .t1 {
+    display: inline-block;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.d-title-cat.border-none .t1 {
+    border: none;
+    line-height: normal;
+}
+
+.sec-cat {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.d-item-cat:hover {
+    -webkit-animation: tada 1s;
+    animation: tada infinite 1s;
+}
+
+.d-item-cat a > img {
+    width: 100%;
+}
+
+.row-items-cat {
+    margin-top: 50px;
+}
+
+.row-items-cat-2 {
+    margin-top: 30px;
+}
+
+.sec-cat-centered {
+    height: 100vh;
+    vertical-align: middle;
+}
+
+.d-info-cat-cent .d-preloader {
+    margin-top: 20px;
+}
+
+.badge-code {
+    color: #FFFFFF;
+    background-color: #A12519;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.d-code-producto {
+    text-align: center;
+}
+
+.sec-producto {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.d-image-medidas {
+    text-align: center;
+}
+
+.d-image-medidas > img {
+    width: 310px;
+}
+
+.d-image-pellet > img {
+    width: 100%;
+}
+
+.d-image-frito > img {
+    width: 100%;
+}
+
+.row-pellet-frito {
+    margin-top: 30px;
+}
+
+.d-ingrediente {
+    text-align: center;
+}
+
+.d-ingrediente > img {
+    width: 88%;
+    margin-top: -10px;
+}
+
+.d-sugerencia > img {
+    width: 100%;
+}
+
+.d-presentacion {
+    text-align: right;
+}
+
+.d-presentacion > img {
+    width: 80%;
+    margin-top: -100px;
+}
+
+.sec-info-producto {
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+
+.d-image-pellet .image-pop {
+    margin-top: -430px;
+    margin-left: -140px;
+    width: 160%;
+    visibility: hidden;
+}
+
+.d-image-pellet:hover > .image-pop {
+    visibility: visible;
+    -webkit-animation: bounceIn 1s;
+    animation: bounceIn 1s;
+}
+
+.d-image-frito {
+    text-align: right;
+}
+
+.d-image-frito .image-pop {
+    visibility: hidden;
+    margin-top: -486px;
+    width: 210px;
+}
+
+.d-image-frito:hover > .image-pop {
+    visibility: visible;
+    -webkit-animation: bounceIn 1s;
+    animation: bounceIn 1s;
+}
+
+.d-image-arrow{
+    text-align: center;
+    margin-top: -100px
+}
+
+.d-image-arrow > img{
+    width: 60px;
+    opacity: .4;
+}

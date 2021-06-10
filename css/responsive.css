@@ -1,0 +1,260 @@
+@media only screen and (max-width: 767px) {
+    .d-text-home {
+        text-align: center
+    }
+
+    .badge-home {
+        font-size: 16px;
+    }
+
+    .d-logo-home {
+        text-align: center;
+    }
+
+    .d-logo-home > img {
+        width: 65% !important;
+    }
+
+    .d-title-cat .t1 {
+        font-size: 26px;
+        line-height: 1.5;
+        margin-top: 10px;
+        border: none;
+    }
+
+    .d-title-cat .t1:after {
+        position: absolute;
+        content: '';
+        border-bottom: 1px solid #d2d7da;
+        width: 80%;
+        transform: translateX(-50%);
+        bottom: -10px;
+        left: 50%;
+    }
+
+    .d-item-cat {
+        padding-right: 40px;
+    }
+
+    .d-image-medidas > img {
+        width: 70% !important;
+        margin-top: 10px;
+    }
+
+    .row-pellet-frito {
+        margin-top: 110px !important;
+    }
+
+    .d-image-pellet {
+        text-align: center;
+    }
+
+    .d-image-pellet > img {
+        width: 58% !important;
+    }
+
+    .d-image-pellet .image-pop {
+        visibility: visible;
+        width: 100% !important;
+        margin-top: -270px !important;
+        margin-left: 0px;
+    }
+
+    .d-image-pellet:hover > .image-pop {
+        visibility: visible;
+        -webkit-animation: none;
+        animation: none
+    }
+
+    .d-image-arrow {
+        display: none;
+    }
+
+    .d-image-frito {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .d-image-frito > img {
+        width: 65% !important;
+    }
+
+    .d-image-frito .image-pop {
+        visibility: visible;
+        width: 41% !important;
+        margin-top: -330px !important;
+        margin-left: 0px;
+    }
+
+    .d-image-frito:hover > .image-pop {
+        visibility: visible;
+        -webkit-animation: none;
+        animation: none
+    }
+
+    .sec-info-producto {
+        margin-top: 100px !important;
+    }
+
+    .d-ingrediente {
+        text-align: center;
+    }
+
+    .d-ingrediente > img {
+        width: 100%;
+        margin-top: -20px;
+    }
+
+    .d-presentacion {
+        text-align: center;
+    }
+
+    .d-presentacion > img {
+        width: 100%;
+    }
+
+    .d-sugerencia {
+        margin-top: 35px;
+    }
+
+    .body-producto {
+        background-position: center;
+    }
+
+    .sec-info-producto {
+        padding-bottom: 100px;
+    }
+
+}
+
+/* ----- RESPONSIVE iPHONE 5/SE ----- */
+@media only screen and (max-width: 320px) {
+    .d-image-frito > .frito {
+        transform: translateY(-35px);
+        z-index: 1;
+        position: relative;
+        width: 68% !important;
+    }
+
+    .d-image-frito > .image-pop {
+        margin-top: -316px !important;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+/* ----- RESPONSIVE GALAXY S5 ----- */
+@media only screen and (max-width: 360px) {
+
+    .d-image-frito {
+        margin-top: 120px !important;
+    }
+
+    .d-image-frito > .image-pop {
+        margin-top: -316px !important;
+    }
+}
+
+/* ----- RESPONSIVE MOVIL DESKTOP ----- */
+@media only screen and (max-width: 500px) {}
+
+/* ----- RESPONSIVE MOVIL DESKTOP ----- */
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 991px) {
+
+    .d-image-medidas > img {
+        width: 60%;
+    }
+
+    .row-pellet-frito {
+        margin-top: 180px;
+    }
+
+    .d-image-pellet {
+        text-align: center;
+    }
+
+    .d-image-pellet > img {
+        width: 55%;
+    }
+
+    .d-image-pellet .image-pop {
+        visibility: visible;
+        width: 100%;
+        margin-top: -530px;
+        margin-left: 0px;
+    }
+
+    .d-image-pellet:hover > .image-pop {
+        visibility: visible;
+        -webkit-animation: none;
+        animation: none
+    }
+
+    .d-image-arrow {
+        display: none;
+    }
+
+    .d-image-frito {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .d-image-frito > img {
+        width: 60%;
+    }
+
+    .d-image-frito .image-pop {
+        visibility: visible;
+        width: 36%;
+        margin-top: -580px;
+        margin-left: 0px;
+    }
+
+    .d-image-frito:hover > .image-pop {
+        visibility: visible;
+        -webkit-animation: none;
+        animation: none
+    }
+
+    .sec-info-producto {
+        margin-top: 110px;
+    }
+
+    .d-ingrediente {
+        text-align: center;
+    }
+
+    .d-ingrediente > img {
+        width: 100%;
+        margin-top: -20px;
+    }
+
+    .d-presentacion {
+        text-align: center;
+    }
+
+    .d-presentacion > img {
+        width: 100%;
+    }
+
+    .d-sugerencia {
+        margin-top: 35px;
+    }
+
+    .body-producto {
+        background-position: center;
+    }
+
+    .sec-info-producto {
+        padding-bottom: 100px;
+    }
+}
+
+/* ----- 1200 ----- */
+@media only screen and (max-width: 1200px) {}
+
+/* ----- ULTRAWIDE SCREEN ----- */
+
+@media only screen and (min-width: 1386px) {}
