@@ -125,6 +125,15 @@
         padding-bottom: 100px;
     }
 
+    .body-black.categorias {
+        background-color: #000000;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg-black.jpg);
+        background-repeat: repeat;
+        background-size: contain;
+        background-position: top;
+        min-height: 100vh;
+    }
+
 }
 
 /* ----- RESPONSIVE iPHONE 5/SE ----- */

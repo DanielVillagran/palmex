@@ -364,3 +364,43 @@ body.body-bg {
     font-size: 16px;
     transform: translateY(1px);
 }
+
+.row-icons-ingredientes{
+    margin-top: 20px;
+}
+
+.d-btns-ingredientes ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+.d-btns-ingredientes ul li{
+    display: inline-block;
+}
+
+.btn-icon-ingredientes{
+    color: rgba(255,255,255,.8);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .6px;
+}
+
+.btn-icon-ingredientes:hover{
+    color: #FFFFFF;
+}
+
+.btn-icon-ingredientes:hover > img{
+    transform: scale(1.1);
+}
+
+.btn-icon-ingredientes > img{
+    width: 60px;
+    margin-right: 8px;
+    transition: .3s;
+}
+
+.btn-icon-ingredientes.multigrano > img{
+    width: 50px;
+}
