@@ -62,7 +62,7 @@ $productos = array(
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-title-cat wow bounceInDown" data-wow-delay=".1s">
-                        <p class="t1">PAPA</p>
+                        <p class="t1">MULLTIGRANO</p>
                     </div>
                 </div>
             </div>
