@@ -273,7 +273,23 @@ $productos = array(
             <div class="row">
                 <div class="col-lg-4 col-md-7 col-7 order-lg-first order-first">
                     <div class="d-ingrediente wow fadeInUp" data-wow-delay=".4s">
-                        <img src="images/viva-mexico/concha-de-maiz/ingrediente.png" alt="">
+                        <img src="/images/ingredientes/<?php
+if ($productos[$producto]['ingredientes'] == 'papa') {
+    echo 'papa.png';
+}
+
+if ($productos[$producto]['ingredientes'] == 'trigo') {
+    echo 'trigo.png';
+}
+
+if ($productos[$producto]['ingredientes'] == 'multigrano') {
+    echo 'multigrano.png';
+}
+
+if ($productos[$producto]['ingredientes'] == 'maiz') {
+    echo 'maiz.png';
+}
+?>" alt="">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-12 col-12 ">
@@ -295,7 +311,9 @@ $productos = array(
         <div class="container">
             <div class="col-lg-4 col-md-6 col-12 offset-lg-4 offset-md-3">
                 <div class="d-btn-ficha wow fadeInUp" data-wow-delay=".5s">
-                    <a class="btn btn-ficha" href="/productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/ficha-tecnica.jpg" target='_blank' role="button"><i class="fas fa-file-alt"></i>Descargar ficha
+                    <a class="btn btn-ficha"
+                        href="/productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/ficha-tecnica.jpg"
+                        target='_blank' role="button"><i class="fas fa-file-alt"></i>Descargar ficha
                         técnica</a>
                 </div>
             </div>
