@@ -97,6 +97,27 @@ body.body-bg {
 .viva-mexico {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg-viva-mexico.jpg);
 }
+.chips {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/chips.jpg);
+}
+.palmix {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/pal-mix.jpg);
+}
+.clasicos {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/clasicos.jpg);
+}
+.duritos {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/duritos.jpg);
+}
+.fiesta {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/fiesta.jpg);
+}
+.nutritivos {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/nutritivos.jpg);
+}
+.tocinitos {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/tocinitos.jpg);
+}
 
 .d-text-home {
     text-align: right;

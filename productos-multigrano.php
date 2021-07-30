@@ -1,3 +1,9 @@
+<?php
+$productos = array(
+    'canelines-multigrano' => array('imagenes' => 'trigo/canelines-multigrano', 'sugerencia' => '',
+        'ingredientes' => '', 'nombre' => 'CONCHA DE MAÍZ 20KG', 'sku' => 'PMMAIZ005'),
+);
+?>
 <!doctype html>
 <html lang="es">
 
@@ -6,15 +12,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- PLUGIN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -44,22 +53,33 @@
     <meta property="og:type" content="website" />
 
     <title>Palmex</title>
+
 </head>
 
-<body class="body-bg viva-mexico">
-    <section class="sec-cat-centered valign">
+<body class="body-black">
+    <section class="sec-cat">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
-                    <div class="d-info-cat-cent">
-                        <div class="d-title-cat border-none wow bounceIn" data-wow-delay=".1s">
-                            <p class="t1">Viva México</p>
-                        </div>
-                        <div class="d-preloader wow fadeIn" data-wow-delay=".8s">
-                            <img src="images/rueda.gif" alt="">
-                        </div>
+                    <div class="d-title-cat wow bounceInDown" data-wow-delay=".1s">
+                        <p class="t1">PAPA</p>
                     </div>
                 </div>
+            </div>
+            <div class="row row-items-cat">
+                <?php
+foreach ($productos as $key => $value) {
+    ?>
+                <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
+                    <div class="d-item-cat">
+                    <a href="/producto.php?producto=<?php echo $key; ?>">
+                            <img src="/productos/platos/<?php echo $value['imagenes']; ?>/principal.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <?php
+}
+?>
             </div>
         </div>
     </section>
@@ -67,22 +87,22 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
     <script src="js/wow.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js" defer></script>
 
-    <script>
-        new WOW().init();
-    </script>
 
     <script>
-        setTimeout(
-            function() {
-                window.location.href = "categorias-viva-mexico.php";
-            }, 5000);
+    new WOW().init();
     </script>
 
 
-</body></html>
+</body>
+
+</html>
