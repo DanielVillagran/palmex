@@ -15,18 +15,18 @@ var_dump($texto);
  */
 $producto = $_GET['producto'];
 $productos = array(
-    'concha-maiz' => array('imagenes' => 'maiz/concha-de-maiz', 'sugerencia' => '',
+    'concha-maiz' => array('imagenes' => 'maiz/concha-de-maiz', 'sugerencia' => 'sv-j-f-cl',
         'ingredientes' => 'maiz', 'nombre' => 'CONCHA DE MAÍZ 20KG', 'sku' => 'PMMAIZ005'),
-    'corners-maiz' => array('imagenes' => 'maiz/mini-corners-de-maiz', 'sugerencia' => '',
+    'corners-maiz' => array('imagenes' => 'maiz/mini-corners-de-maiz', 'sugerencia' => 'sv-j-f-cl',
         'ingredientes' => 'maiz', 'nombre' => 'MINI CORNERS 13KG', 'sku' => 'PMMAIZ014'),
-    'tornillo-maiz' => array('imagenes' => 'maiz/mini-tornillo-de-maiz', 'sugerencia' => '',
+    'tornillo-maiz' => array('imagenes' => 'maiz/mini-tornillo-de-maiz', 'sugerencia' => 'sv-j-f-cl',
         'ingredientes' => 'maiz', 'nombre' => 'MINI TORNILLO DE MAIZ 20KG', 'sku' => 'PMMAIZ007'),
-    'quesadilla-maiz' => array('imagenes' => 'maiz/quesadilla-de-maiz', 'sugerencia' => '',
+    'quesadilla-maiz' => array('imagenes' => 'maiz/quesadilla-de-maiz', 'sugerencia' => 'sv-j-f-cl',
         'ingredientes' => 'maiz', 'nombre' => 'QUESADILLA DE MAÍZ 14KG', 'sku' => 'PMMAIZ009'),
-    'tortilla-maiz' => array('imagenes' => 'maiz/tortilla-de-maiz', 'sugerencia' => '',
+    'tortilla-maiz' => array('imagenes' => 'maiz/tortilla-de-maiz', 'sugerencia' => 'sv-j-f-cl',
         'ingredientes' => 'maiz', 'nombre' => 'CONCHA DE MAÍZ 20KG', 'sku' => 'PMMAIZ005'),
 
-    'aro-papa' => array('imagenes' => 'papa/aro-sabor-cebolla-de-papa', 'sugerencia' => '',
+    'aro-papa' => array('imagenes' => 'papa/aro-sabor-cebolla-de-papa', 'sugerencia' => 'sn-q-ce-cl',
         'ingredientes' => 'papa', 'nombre' => 'ARO DE PAPA SABOR CEBOLLA 15KG', 'sku' => 'PTPVFI004'),
     'francesa-papa' => array('imagenes' => 'papa/francesa-de-papa', 'sugerencia' => '',
         'ingredientes' => 'papa', 'nombre' => 'PAPA FRANCESA 15KG', 'sku' => 'PTPVFI002'),
@@ -294,7 +294,7 @@ if ($productos[$producto]['ingredientes'] == 'maiz') {
                 </div>
                 <div class="col-lg-5 col-md-12 col-12 ">
                     <div class="d-sugerencia wow fadeInUp" data-wow-delay=".6s">
-                        <img src="images/viva-mexico/concha-de-maiz/sugerencia.png" alt="">
+                        <img src="images/sugerencias/<?php echo $productos[$producto]['sugerencia'] ?>.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-5 col-5 order-lg-last order-first">
