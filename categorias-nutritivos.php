@@ -42,9 +42,9 @@ $productos = array(
     <link rel="stylesheet" href="css/animate.css">
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" type="image/png" href="images_upload/favicon/favicon.png'">
-    <link rel="shortcut icon" sizes="192x192" href="images_upload/favicon/favicon.png'">
-    <link rel="apple-touch-icon" href="images_upload/favicon/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="images/favicon/favicon.png">
+    <link rel="shortcut icon" sizes="192x192" href="images/favicon/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon/favicon.png">
 
     <!-- OPENGRAPH -->
     <meta property="og:title" content="Palmex">
