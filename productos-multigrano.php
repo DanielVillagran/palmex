@@ -12,18 +12,10 @@ $productos = array(
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"
-       >
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-
-    <!-- PLUGIN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- PLUGIN FONT AWESOME -->
+    <link rel="stylesheet" href="css/all.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -62,7 +54,7 @@ $productos = array(
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-title-cat wow bounceInDown" data-wow-delay=".1s">
-                        <p class="t1">MULLTIGRANO</p>
+                        <p class="t1">MULTIGRANO</p>
                     </div>
                 </div>
             </div>
