@@ -1,4 +1,9 @@
 <?php
+session_start();
+$lang="";
+if($_SESSION['lang']=='eng'){
+    $lang='-eng';
+}
 $productos = array(
     'pal-mix-m-mixto' => array('imagenes' => 'trigo/pal-mix-m-mixto', 'sugerencia' => '',
         'ingredientes' => 'trigo', 'nombre' => 'MIX M 20KG', 'sku' => 'PTFTBR029'),
@@ -66,8 +71,8 @@ foreach ($productos as $key => $value) {
     ?>
             <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
                 <div class="d-item-cat">
-                <a href="/producto.php?producto=<?php echo $key; ?>">
-                        <img src="/productos/platos/<?php echo $value['imagenes']; ?>/principal.png" alt="">
+                <a  href="producto.php?producto=<?php echo $key; ?>">
+                        <img src="productos/platos/<?php echo $value['imagenes']; ?>/principal<?php echo $lang; ?>.png" alt="">
                     </a>
                 </div>
             </div>
@@ -90,11 +95,7 @@ foreach ($productos as $key => $value) {
     <script src="js/wow.js"></script>
     
     <script src="js/main.js" defer></script>
-
-
-    <script>
-    new WOW().init();
-    </script>
+    <script src="js/onlywow.js" defer></script>
 
 
 </body>

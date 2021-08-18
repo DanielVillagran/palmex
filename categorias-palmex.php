@@ -1,3 +1,14 @@
+<?php
+session_start();
+$_SESSION['lang'] = "esp";
+
+if (isset($_GET['language'])) {
+    $lenguaje = $_GET['language'];
+    if ($lenguaje == 'eng') {
+        $_SESSION['lang'] = "eng";
+    }
+}
+?>
 <!doctype html>
 <html lang="es">
 
@@ -9,7 +20,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- PLUGIN -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -48,14 +59,24 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-btn-idioma">
-                        <button type="button" class="btn btn-idioma wow fadeInLeft" data-wow-delay=".2s"><img src="images/icons/estados-unidos.svg"><span>Change Language</span></button>
+                        <button type="button" onclick="<?php if ($_SESSION['lang'] != "eng") {echo "window.location.href='categorias-palmex.php?language=eng'";} else {echo "window.location.href='categorias-palmex.php'";}?>" class="btn btn-idioma wow fadeInLeft" data-wow-delay=".2s">
+                            <?php if ($_SESSION['lang'] == "eng") {?>
+                            <img src="images/icons/estados-unidos.svg"><span>Change Language</span>
+                            <?php } else {?>
+                            <img src='images/icons/mexico.svg' ><span>Cambiar Idioma</span>
+                            <?php }?>
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-title-cat wow bounceInDown" data-wow-delay=".1s">
-                        <p class="t1">CATEGORÍAS PALMEX</p>
+                    <?php if ($_SESSION['lang'] == "eng") {?>
+                        <p class="t1">PRODUCT SEGMENTATION</p>
+                        <?php } else {?>
+                            <p class="t1">SEGMENTOS</p>
+                            <?php }?>
                     </div>
                 </div>
             </div>
@@ -67,7 +88,7 @@
                             <li class="wow fadeInUp" data-wow-delay=".4s"><a class="btn btn-icon-ingredientes" href="productos-trigo.php" role="button"><img src="images/icon-ingredientes/trigo.png" alt="Trigo">Trigo</a></li>
                             <li class="wow fadeInUp" data-wow-delay=".6s"><a class="btn btn-icon-ingredientes" href="productos-papa.php" role="button"><img src="images/icon-ingredientes/papa.png" alt="Papa">Papa</a></li>
                             <li class="wow fadeInUp" data-wow-delay=".8s"><a class="btn btn-icon-ingredientes multigrano" href="productos-multigrano.php" role="button"><img src="images/icon-ingredientes/multigrano.png" alt="Multigrano">Multigrano</a></li>
-                          
+
                         </ul>
                     </div>
                 </div>
@@ -111,7 +132,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="row row-items-cat-2">
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
                     <div class="d-item-cat">
@@ -160,7 +181,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js" ></script>
     <script src="js/wow.js"></script>
-    
+
     <script src="js/main.js" defer></script>
 
 
