@@ -1,4 +1,9 @@
 <?php
+session_start();
+$lang="";
+if($_SESSION['lang']=='eng'){
+    $lang='-eng';
+}
 $productos = array(
     'hojuela-clasica-papa' => array('imagenes' => 'papa/hojuela-clasica-de-papa', 'sugerencia' => '',
         'ingredientes' => 'papa', 'nombre' => 'HOJUELA DE PAPA CLASICA 8KG', 'sku' => 'PPPREH002'),
@@ -60,7 +65,13 @@ $productos = array(
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-title-cat wow bounceInDown" data-wow-delay=".1s">
-                        <p class="t1">CHIPS</p>
+                    <?php
+                        if($_SESSION['lang']=='eng'){
+                        ?>
+                        <p class="t1">POTATO CHIPS</p>
+                        <?php } else {?>
+                            <p class="t1">CHIPS</p>
+                            <?php }?>
                     </div>
                 </div>
             </div>
@@ -70,8 +81,8 @@ foreach ($productos as $key => $value) {
     ?>
             <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
                 <div class="d-item-cat">
-                <a href="/producto.php?producto=<?php echo $key; ?>">
-                        <img src="/productos/platos/<?php echo $value['imagenes']; ?>/principal.png" alt="">
+                <a  href="producto.php?producto=<?php echo $key; ?>">
+                        <img src="productos/platos/<?php echo $value['imagenes']; ?>/principal<?php echo $lang; ?>.png" alt="">
                     </a>
                 </div>
             </div>
@@ -92,13 +103,10 @@ foreach ($productos as $key => $value) {
         >
     </script>
     <script src="js/wow.js"></script>
-    
+
     <script src="js/main.js" defer></script>
+    <script src="js/onlywow.js" defer></script>
 
-
-    <script>
-    new WOW().init();
-    </script>
 
 
 </body>

@@ -104,8 +104,8 @@ $productos = array(
                 ?>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
                     <div class="d-item-cat">
-                    <a href="/producto.php?producto=<?php echo $key;?>">
-                            <img src="/productos/platos/<?php echo $value['imagenes']; ?>/principal.png" alt="">
+                    <a  href="producto.php?producto=<?php echo $key;?>">
+                            <img src="productos/platos/<?php echo $value['imagenes']; ?>/principal.png" alt="">
                         </a>
                     </div>
                 </div>

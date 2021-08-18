@@ -5,7 +5,7 @@ $(document).ready(function ($) {
     $("#modalHome").modal();
 });
 
-$(".btn-idioma").on("click", function () {
+/*$(".btn-idioma").on("click", function () {
     var textBtn = $(".btn-idioma > span").text();
     if (textBtn == "Change Language") {
         $(this).html("<img src='images/icons/mexico.svg'><span>Cambiar Idioma</span>");
@@ -14,3 +14,4 @@ $(".btn-idioma").on("click", function () {
     }
 
 });
+*/
