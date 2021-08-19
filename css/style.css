@@ -257,6 +257,15 @@ body.body-bg {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+.d-title-cat .t2 {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
 .d-title-cat.border-none .t1 {
     border: none;
@@ -523,6 +532,14 @@ body.body-bg {
     color: #FFFFFF;
     text-align: center;
     font-size: 16px;
+    margin-bottom: 7px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.d-title-filtro .t2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
     margin-bottom: 7px;
     margin-bottom: 0px;
     margin-top: 10px;

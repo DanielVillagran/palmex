@@ -89,21 +89,21 @@ if (isset($_GET['language'])) {
             <div class="row row-items-cat">
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
                     <div class="d-item-cat">
-                        <a href="duritos.html">
+                        <a href="duritos.php">
                             <img src="images/categorias-palmex/cat-duritos<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".8s">
                     <div class="d-item-cat">
-                        <a href="clasicos.html">
+                        <a href="clasicos.php">
                             <img src="images/categorias-palmex/cat-clasicos<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".9s">
                     <div class="d-item-cat">
-                        <a href="fiesta.html">
+                        <a href="fiesta.php">
                             <img src="images/categorias-palmex/cat-fiesta<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
@@ -112,14 +112,14 @@ if (isset($_GET['language'])) {
             <div class="row row-items-cat-2">
                 <div class="col-lg-4 col-md-12 col-12 offset-lg-2  wow bounceIn" data-wow-delay="1s">
                     <div class="d-item-cat">
-                        <a href="chips.html">
+                        <a href="chips.php">
                             <img src="images/categorias-palmex/cat-chips<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay="1.1s">
                     <div class="d-item-cat">
-                        <a href="viva-mexico.html">
+                        <a href="viva-mexico.php">
                             <img src="images/categorias-palmex/cat-viva-mexico<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
@@ -129,21 +129,21 @@ if (isset($_GET['language'])) {
             <div class="row row-items-cat-2">
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
                     <div class="d-item-cat">
-                        <a href="palmix.html">
+                        <a href="palmix.php">
                             <img src="images/categorias-palmex/cat-pal-mix<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".8s">
                     <div class="d-item-cat">
-                        <a href="nutritivos.html">
+                        <a href="nutritivos.php">
                             <img src="images/categorias-palmex/cat-nutritivos<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".9s">
                     <div class="d-item-cat">
-                        <a href="tocinitos.html">
+                        <a href="tocinitos.php">
                             <img src="images/categorias-palmex/cat-tocinitos<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
@@ -152,14 +152,14 @@ if (isset($_GET['language'])) {
             <div class="row row-items-cat-2">
                 <div class="col-lg-4 col-md-12 col-12 offset-lg-2  wow bounceIn" data-wow-delay="1s">
                     <div class="d-item-cat">
-                        <a href="snackit.html">
+                        <a href="snackit.php">
                             <img src="images/categorias-palmex/cat-snackit<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay="1.1s">
                     <div class="d-item-cat">
-                        <a href="#0">
+                        <a href="made.php">
                             <img src="images/categorias-palmex/cat-botanas-a-tu-medida<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>

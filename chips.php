@@ -1,3 +1,7 @@
+<?php
+session_start();
+
+?>
 <!doctype html>
 <html lang="es">
 
@@ -41,14 +45,20 @@
     <title>Palmex</title>
 </head>
 
-<body class="body-bg fiesta">
+<body class="body-bg chips">
     <section class="sec-cat-centered valign">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-info-cat-cent">
-                        <div class="d-title-cat border-none wow bounceIn" data-wow-delay=".1s">
-                            <p class="t1">Fiesta</p>
+                        <div class="d-title-cat wow bounceIn" data-wow-delay=".1s">
+                        <?php
+                        if($_SESSION['lang']=='eng'){
+                        ?>
+                        <p class="t1">POTATO CHIPS</p>
+                        <?php } else {?>
+                            <p class="t1">CHIPS</p>
+                            <?php }?>
                         </div>
                         <div class="d-preloader wow fadeIn" data-wow-delay=".8s">
                             <img src="images/rueda.gif" alt="">
@@ -63,11 +73,12 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.js"></script>
-    
+
     <script src="js/main.js" defer></script>
-    <script src="js/fiesta.js" defer></script>
+    <script src="js/chips.js" defer></script>
 
+</body>
 
-</body></html>
+</html>

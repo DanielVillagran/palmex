@@ -1,3 +1,18 @@
+<?php
+session_start();
+$lang="";
+if($_SESSION['lang']=='eng'){
+    $lang='-eng';
+}
+$productos = array(
+    'tocinito-trigo' => array('imagenes' => 'trigo/tocinito-de-trigo', 'sugerencia' => '',
+        'ingredientes' => 'trigo', 'nombre' => 'TOCINITO 15KG', 'sku' => 'PTFTBR002'),
+    'tocinito-3x3-trigo' => array('imagenes' => 'trigo/tocinito-3x3-de-trigo', 'sugerencia' => '',
+        'ingredientes' => 'trigo', 'nombre' => 'TOCINITO 3x3 15KG', 'sku' => 'PTFTBR006'),
+    'cuadri-bacon-grande-trigo' => array('imagenes' => 'trigo/cuadri-bacon-grande-de-trigo', 'sugerencia' => '',
+        'ingredientes' => 'trigo', 'nombre' => 'CUADRI BACON GRANDE 15KG', 'sku' => 'PTFTBR011'),
+);
+?>
 <!doctype html>
 <html lang="es">
 
@@ -39,22 +54,39 @@
     <meta property="og:type" content="website" />
 
     <title>Palmex</title>
+
 </head>
 
-<body class="body-bg chips">
-    <section class="sec-cat-centered valign">
+<body class="body-black">
+    <section class="sec-cat">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
-                    <div class="d-info-cat-cent">
-                        <div class="d-title-cat wow bounceIn" data-wow-delay=".1s">
-                            <p class="t1">Chips</p>
-                        </div>
-                        <div class="d-preloader wow fadeIn" data-wow-delay=".8s">
-                            <img src="images/rueda.gif" alt="">
-                        </div>
+                    <div class="d-title-cat wow bounceInDown" data-wow-delay=".1s">
+                    <?php
+if ($_SESSION['lang'] == 'eng') {
+    ?>
+                            <p class="t1">BACONS</p>
+                        <?php } else {?>
+                            <p class="t1">TOCINITOS</p>
+                            <?php }?>
                     </div>
                 </div>
+            </div>
+            <div class="row row-items-cat">
+                <?php
+foreach ($productos as $key => $value) {
+    ?>
+            <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
+                <div class="d-item-cat">
+                <a  href="producto.php?producto=<?php echo $key; ?>">
+                        <img src="productos/platos/<?php echo $value['imagenes']; ?>/principal<?php echo $lang; ?>.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <?php
+}
+?>
             </div>
         </div>
     </section>
@@ -62,12 +94,16 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"
+       >
+    </script>
+    <script src="js/bootstrap.min.js"
+        >
+    </script>
     <script src="js/wow.js"></script>
-
+    
     <script src="js/main.js" defer></script>
-    <script src="js/chips.js" defer></script>
+    <script src="js/onlywow.js" defer></script>
 
 </body>
 

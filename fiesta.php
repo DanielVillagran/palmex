@@ -1,3 +1,7 @@
+<?php
+session_start();
+
+?>
 <!doctype html>
 <html lang="es">
 
@@ -41,14 +45,20 @@
     <title>Palmex</title>
 </head>
 
-<body class="body-bg duritos">
+<body class="body-bg fiesta">
     <section class="sec-cat-centered valign">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-info-cat-cent">
                         <div class="d-title-cat border-none wow bounceIn" data-wow-delay=".1s">
-                            <p class="t1">Duritos</p>
+                        <?php
+                        if($_SESSION['lang']=='eng'){
+                        ?>
+                        <p class="t1">PARTY</p>
+                        <?php } else {?>
+                            <p class="t1">FIESTA</p>
+                            <?php }?>
                         </div>
                         <div class="d-preloader wow fadeIn" data-wow-delay=".8s">
                             <img src="images/rueda.gif" alt="">
@@ -67,6 +77,7 @@
     <script src="js/wow.js"></script>
     
     <script src="js/main.js" defer></script>
-    <script src="js/duritos.js" defer></script>
+    <script src="js/fiesta.js" defer></script>
+
 
 </body></html>
