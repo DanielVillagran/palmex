@@ -1,4 +1,9 @@
 <?php
+session_start();
+$lang = "";
+if ($_SESSION['lang'] == 'eng') {
+    $lang = '-eng';
+}
 $productos = array(
     'concha-maiz' => array('imagenes' => 'maiz/concha-de-maiz', 'sugerencia' => '',
     'ingredientes' => '', 'nombre' => 'CONCHA DE MAÍZ 20KG', 'sku' => 'PMMAIZ005'),
@@ -8,8 +13,7 @@ $productos = array(
     'ingredientes' => '', 'nombre' => 'CONCHA DE MAÍZ 20KG', 'sku' => 'PMMAIZ005'),
 'quesadilla-maiz' => array('imagenes' => 'maiz/quesadilla-de-maiz', 'sugerencia' => '',
     'ingredientes' => '', 'nombre' => 'CONCHA DE MAÍZ 20KG', 'sku' => 'PMMAIZ005'),
-'tortilla-maiz' => array('imagenes' => 'maiz/tortilla-de-maiz', 'sugerencia' => '',
-    'ingredientes' => '', 'nombre' => 'CONCHA DE MAÍZ 20KG', 'sku' => 'PMMAIZ005'),
+
 );
 ?>
 <!doctype html>
@@ -62,7 +66,13 @@ $productos = array(
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-title-cat wow bounceInDown" data-wow-delay=".1s">
-                        <p class="t1">MAIZ</p>
+                    <?php
+if ($_SESSION['lang'] == 'eng') {
+    ?>
+                            <p class="t1">CORN</p>
+                        <?php } else {?>
+                            <p class="t1">MAIZ</p>
+                            <?php }?>
                     </div>
                 </div>
             </div>
@@ -73,7 +83,7 @@ $productos = array(
             <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
                 <div class="d-item-cat">
                 <a  href="producto.php?producto=<?php echo $key;?>">
-                        <img src="productos/platos/<?php echo $value['imagenes']; ?>/principal.png" alt="">
+                        <img src="productos/platos/<?php echo $value['imagenes']; ?>/principal<?php echo $lang; ?>.png" alt="">
                     </a>
                 </div>
             </div>

@@ -8,7 +8,7 @@ $("#to_eng").click(function(){
     window.location.href='categorias-palmex.php?language=eng';
 })
 $("#to_esp").click(function(){
-    window.location.href='categorias-palmex.php?language=eng';
+    window.location.href='categorias-palmex.php';
 })
 /*$(".btn-idioma").on("click", function () {
     var textBtn = $(".btn-idioma > span").text();

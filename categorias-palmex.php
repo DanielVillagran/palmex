@@ -1,11 +1,12 @@
 <?php
 session_start();
 $_SESSION['lang'] = "esp";
-
+$lang = "";
 if (isset($_GET['language'])) {
     $lenguaje = $_GET['language'];
     if ($lenguaje == 'eng') {
         $_SESSION['lang'] = "eng";
+        $lang = "-eng";
     }
 }
 ?>
@@ -89,21 +90,21 @@ if (isset($_GET['language'])) {
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
                     <div class="d-item-cat">
                         <a href="duritos.html">
-                            <img src="images/categorias-palmex/cat-duritos.png" alt="">
+                            <img src="images/categorias-palmex/cat-duritos<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".8s">
                     <div class="d-item-cat">
                         <a href="clasicos.html">
-                            <img src="images/categorias-palmex/cat-clasicos.png" alt="">
+                            <img src="images/categorias-palmex/cat-clasicos<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".9s">
                     <div class="d-item-cat">
                         <a href="fiesta.html">
-                            <img src="images/categorias-palmex/cat-fiesta.png" alt="">
+                            <img src="images/categorias-palmex/cat-fiesta<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -112,14 +113,14 @@ if (isset($_GET['language'])) {
                 <div class="col-lg-4 col-md-12 col-12 offset-lg-2  wow bounceIn" data-wow-delay="1s">
                     <div class="d-item-cat">
                         <a href="chips.html">
-                            <img src="images/categorias-palmex/cat-chips.png" alt="">
+                            <img src="images/categorias-palmex/cat-chips<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay="1.1s">
                     <div class="d-item-cat">
                         <a href="viva-mexico.html">
-                            <img src="images/categorias-palmex/cat-viva-mexico.png" alt="">
+                            <img src="images/categorias-palmex/cat-viva-mexico<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -129,21 +130,21 @@ if (isset($_GET['language'])) {
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
                     <div class="d-item-cat">
                         <a href="palmix.html">
-                            <img src="images/categorias-palmex/cat-pal-mix.png" alt="">
+                            <img src="images/categorias-palmex/cat-pal-mix<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".8s">
                     <div class="d-item-cat">
                         <a href="nutritivos.html">
-                            <img src="images/categorias-palmex/cat-nutritivos.png" alt="">
+                            <img src="images/categorias-palmex/cat-nutritivos<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".9s">
                     <div class="d-item-cat">
                         <a href="tocinitos.html">
-                            <img src="images/categorias-palmex/cat-tocinitos.png" alt="">
+                            <img src="images/categorias-palmex/cat-tocinitos<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -152,14 +153,14 @@ if (isset($_GET['language'])) {
                 <div class="col-lg-4 col-md-12 col-12 offset-lg-2  wow bounceIn" data-wow-delay="1s">
                     <div class="d-item-cat">
                         <a href="snackit.html">
-                            <img src="images/categorias-palmex/cat-snackit.png" alt="">
+                            <img src="images/categorias-palmex/cat-snackit<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay="1.1s">
                     <div class="d-item-cat">
                         <a href="#0">
-                            <img src="images/categorias-palmex/cat-botanas-a-tu-medida.png" alt="">
+                            <img src="images/categorias-palmex/cat-botanas-a-tu-medida<?php echo $lang; ?>.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -168,14 +169,44 @@ if (isset($_GET['language'])) {
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-filtro">
                         <div class="d-title-filtro">
-                            <p class="t1 wow fadeInLeft" data-wow-delay=".1s">Selecciona los productos por<span>-</span><b>ingrediente principal</b></p>
+                            <p class="t1 wow fadeInLeft" data-wow-delay=".1s">
+                            <?php if ($_SESSION['lang'] == "eng") {?>
+                                Select products by<span>-</span><b>principal ingredient</b></p>
+                        <?php } else {?>
+                            Selecciona los productos por<span>-</span><b>ingrediente principal</b></p>
+                        <?php }?>
+                           
                         </div>
                         <div class="d-btns-ingredientes">
                             <ul>
-                                <li class="wow fadeInUp" data-wow-delay=".2s"><a class="btn btn-icon-ingredientes" href="productos-maiz.php" role="button"><img src="images/icon-ingredientes/maiz.png" alt="Maiz">Maíz</a></li>
-                                <li class="wow fadeInUp" data-wow-delay=".4s"><a class="btn btn-icon-ingredientes" href="productos-trigo.php" role="button"><img src="images/icon-ingredientes/trigo.png" alt="Trigo">Trigo</a></li>
-                                <li class="wow fadeInUp" data-wow-delay=".6s"><a class="btn btn-icon-ingredientes" href="productos-papa.php" role="button"><img src="images/icon-ingredientes/papa.png" alt="Papa">Papa</a></li>
-                                <li class="wow fadeInUp" data-wow-delay=".8s"><a class="btn btn-icon-ingredientes multigrano" href="productos-multigrano.php" role="button"><img src="images/icon-ingredientes/multigrano.png" alt="Multigrano">Multigrano</a></li>
+                                <li class="wow fadeInUp" data-wow-delay=".2s"><a class="btn btn-icon-ingredientes" href="productos-maiz.php" role="button"><img src="images/icon-ingredientes/maiz.png" alt="Maiz">
+                                <?php if ($_SESSION['lang'] == "eng") {?>
+                        Corn
+                        <?php } else {?>
+                            Maíz
+                        <?php }?>
+                                </a></li>
+                                <li class="wow fadeInUp" data-wow-delay=".4s"><a class="btn btn-icon-ingredientes" href="productos-trigo.php" role="button"><img src="images/icon-ingredientes/trigo.png" alt="Trigo">
+                                <?php if ($_SESSION['lang'] == "eng") {?>
+                        Wheat
+                        <?php } else {?>
+                        Trigo
+                        <?php }?>
+                        </a></li>
+                                <li class="wow fadeInUp" data-wow-delay=".6s"><a class="btn btn-icon-ingredientes" href="productos-papa.php" role="button"><img src="images/icon-ingredientes/papa.png" alt="Papa">
+                                <?php if ($_SESSION['lang'] == "eng") {?>
+                        Potato
+                        <?php } else {?>
+                        Papa
+                        <?php }?>
+                        </a></li>
+                                <li class="wow fadeInUp" data-wow-delay=".8s"><a class="btn btn-icon-ingredientes multigrano" href="productos-multigrano.php" role="button"><img src="images/icon-ingredientes/multigrano.png" alt="Multigrano">
+                                <?php if ($_SESSION['lang'] == "eng") {?>
+                        Multigrain
+                        <?php } else {?>
+                        Multigrano
+                        <?php }?>
+                                </a></li>
                             </ul>
                         </div>
                     </div>
