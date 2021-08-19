@@ -1,10 +1,15 @@
 $(".head").load("../components/head.html");
-
+new WOW().init();
 
 $(document).ready(function ($) {
     $("#modalHome").modal();
 });
-
+$("#to_eng").click(function(){
+    window.location.href='categorias-palmex.php?language=eng';
+})
+$("#to_esp").click(function(){
+    window.location.href='categorias-palmex.php?language=eng';
+})
 /*$(".btn-idioma").on("click", function () {
     var textBtn = $(".btn-idioma > span").text();
     if (textBtn == "Change Language") {

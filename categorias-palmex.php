@@ -59,7 +59,7 @@ if (isset($_GET['language'])) {
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-btn-idioma">
-                        <button type="button" onclick="<?php if ($_SESSION['lang'] != "eng") {echo "window.location.href='categorias-palmex.php?language=eng'";} else {echo "window.location.href='categorias-palmex.php'";}?>" class="btn btn-idioma wow fadeInLeft" data-wow-delay=".2s">
+                        <button type="button" id="<?php if ($_SESSION['lang'] != "eng") {echo "to_eng";} else {echo "to_esp";}?>"  class="btn btn-idioma wow fadeInLeft" data-wow-delay=".2s">
                             <?php if ($_SESSION['lang'] == "eng") {?>
                             <img src="images/icons/estados-unidos.svg"><span>Change Language</span>
                             <?php } else {?>
@@ -184,10 +184,6 @@ if (isset($_GET['language'])) {
 
     <script src="js/main.js" defer></script>
 
-
-    <script>
-        new WOW().init();
-    </script>
 
 
 </body></html>
