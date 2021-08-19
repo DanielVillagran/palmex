@@ -31,6 +31,10 @@
         bottom: -10px;
         left: 50%;
     }
+    
+    .d-info-cat-cent .d-title-cat .t1:after{
+        border-bottom: none;
+    }
 
     .d-item-cat {
         padding-right: 40px;
@@ -38,7 +42,7 @@
 
     .d-image-medidas > img {
         width: 70% !important;
-        margin-top: 10px;
+        margin-top: 40px;
     }
 
     .row-pellet-frito {
@@ -55,7 +59,7 @@
 
     .d-image-pellet .image-pop {
         visibility: visible;
-        width: 100% !important;
+        width: 102% !important;
         margin-top: -270px !important;
         margin-left: 0px;
     }
@@ -81,8 +85,15 @@
 
     .d-image-frito .image-pop {
         visibility: visible;
-        width: 41% !important;
+        width: 48% !important;
         margin-top: -330px !important;
+        margin-left: 0px;
+    }
+    
+    .d-image-frito.duritos .image-pop {
+        visibility: visible;
+        width: 88% !important;
+        margin-top: -380px !important;
         margin-left: 0px;
     }
 
@@ -127,11 +138,36 @@
 
     .body-black.categorias {
         background-color: #000000;
-        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg-black.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg-movil-2.jpg);
         background-repeat: repeat;
         background-size: contain;
         background-position: top;
         min-height: 100vh;
+    }
+
+    .d-logo {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .d-logo > img {
+        width: 160px;
+    }
+
+    .d-filtro {
+        display: block;
+        justify-content: center;
+        background-color: rgba(255, 255, 255, .07);
+        border-radius: 10px;
+        padding-top: 16px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 50px;
+    }
+    
+    .d-title-filtro{
+        margin-right: 0px;
     }
 
 }
