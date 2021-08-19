@@ -63,33 +63,25 @@ if (isset($_GET['language'])) {
                             <?php if ($_SESSION['lang'] == "eng") {?>
                             <img src="images/icons/estados-unidos.svg"><span>Change Language</span>
                             <?php } else {?>
-                            <img src='images/icons/mexico.svg' ><span>Cambiar Idioma</span>
+                            <img src='images/icons/mexico.svg'><span>Cambiar Idioma</span>
                             <?php }?>
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-12">
-                    <div class="d-title-cat wow bounceInDown" data-wow-delay=".1s">
-                    <?php if ($_SESSION['lang'] == "eng") {?>
-                        <p class="t1">PRODUCT SEGMENTATION</p>
-                        <?php } else {?>
-                            <p class="t1">SEGMENTOS</p>
-                            <?php }?>
+            <div class="row row-title-segmentos">
+                <div class="col-lg-12 col-md-12">
+                    <div class="d-logo">
+                        <img src="images/logo-palmex.png" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="row row-icons-ingredientes">
                 <div class="col-lg-12 col-md-12 col-12">
-                    <div class="d-btns-ingredientes">
-                        <ul>
-                            <li class="wow fadeInUp" data-wow-delay=".2s"><a class="btn btn-icon-ingredientes" href="productos-maiz.php" role="button"><img src="images/icon-ingredientes/maiz.png" alt="Maiz">Maíz</a></li>
-                            <li class="wow fadeInUp" data-wow-delay=".4s"><a class="btn btn-icon-ingredientes" href="productos-trigo.php" role="button"><img src="images/icon-ingredientes/trigo.png" alt="Trigo">Trigo</a></li>
-                            <li class="wow fadeInUp" data-wow-delay=".6s"><a class="btn btn-icon-ingredientes" href="productos-papa.php" role="button"><img src="images/icon-ingredientes/papa.png" alt="Papa">Papa</a></li>
-                            <li class="wow fadeInUp" data-wow-delay=".8s"><a class="btn btn-icon-ingredientes multigrano" href="productos-multigrano.php" role="button"><img src="images/icon-ingredientes/multigrano.png" alt="Multigrano">Multigrano</a></li>
-
-                        </ul>
+                    <div class="d-title-cat wow bounceInDown" data-wow-delay=".1s">
+                        <?php if ($_SESSION['lang'] == "eng") {?>
+                        <p class="t1">PRODUCT SEGMENTATION</p>
+                        <?php } else {?>
+                        <p class="t1">SEGMENTOS</p>
+                        <?php }?>
                     </div>
                 </div>
             </div>
@@ -172,6 +164,24 @@ if (isset($_GET['language'])) {
                     </div>
                 </div>
             </div>
+            <div class="row row-icons-ingredientes">
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="d-filtro">
+                        <div class="d-title-filtro">
+                            <p class="t1 wow fadeInLeft" data-wow-delay=".1s">Selecciona los productos por<span>-</span><b>ingrediente principal</b></p>
+                        </div>
+                        <div class="d-btns-ingredientes">
+                            <ul>
+                                <li class="wow fadeInUp" data-wow-delay=".2s"><a class="btn btn-icon-ingredientes" href="productos-maiz.php" role="button"><img src="images/icon-ingredientes/maiz.png" alt="Maiz">Maíz</a></li>
+                                <li class="wow fadeInUp" data-wow-delay=".4s"><a class="btn btn-icon-ingredientes" href="productos-trigo.php" role="button"><img src="images/icon-ingredientes/trigo.png" alt="Trigo">Trigo</a></li>
+                                <li class="wow fadeInUp" data-wow-delay=".6s"><a class="btn btn-icon-ingredientes" href="productos-papa.php" role="button"><img src="images/icon-ingredientes/papa.png" alt="Papa">Papa</a></li>
+                                <li class="wow fadeInUp" data-wow-delay=".8s"><a class="btn btn-icon-ingredientes multigrano" href="productos-multigrano.php" role="button"><img src="images/icon-ingredientes/multigrano.png" alt="Multigrano">Multigrano</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 
@@ -179,11 +189,13 @@ if (isset($_GET['language'])) {
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.js"></script>
 
     <script src="js/main.js" defer></script>
 
 
 
-</body></html>
+</body>
+
+</html>

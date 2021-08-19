@@ -218,7 +218,7 @@ body.body-bg {
 
 .d-preloader > img{
     padding: 15px;
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0,0,0,0);
     border-radius: 5px;
     width: 90px;
 }
@@ -228,7 +228,7 @@ body.body-bg {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg-black.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: top right;
     min-height: 100vh;
 }
 
@@ -265,7 +265,7 @@ body.body-bg {
 
 .sec-cat {
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .d-item-cat:hover {
@@ -333,6 +333,10 @@ body.body-bg {
     margin-top: 30px;
 }
 
+.row-pellet-frito.duritos{
+    margin-top: 70px;
+}
+
 .d-ingrediente {
     text-align: center;
 }
@@ -379,8 +383,15 @@ body.body-bg {
 
 .d-image-frito .image-pop {
     visibility: hidden;
-    margin-top: -486px;
-    width: 210px;
+    margin-top: -456px;
+    width: 230px;
+}
+
+.d-image-frito.duritos .image-pop{
+    visibility: hidden;
+    margin-top: -590px;
+    width: 450px;
+    margin-left: -40px;
 }
 
 .d-image-frito:hover > .image-pop {
@@ -490,4 +501,50 @@ body.body-bg {
 }
 .width-300{
     width: 300px
+}
+
+.d-logo > img{
+    width: 200px;
+}
+
+.row-title-segmentos{
+    margin-top: 30px;
+}
+
+.d-logo{
+    margin-bottom: -60px;
+}
+
+.d-title-filtro{
+    margin-right: 30px;
+}
+
+.d-title-filtro .t1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 7px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.d-title-filtro .t1 > b{
+    font-size: 21px;
+}
+
+.d-title-filtro .t1 > span{
+    font-size: 0px;
+    display: block;
+}
+
+.d-filtro{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,255,255,.07);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
 }
