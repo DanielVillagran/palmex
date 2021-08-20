@@ -82,7 +82,7 @@ $productos = array(
         'ingredientes' => 'trigo', 'nombre' => '2x3 LISO 15KG', 'sku' => 'PTFTBR009', 'nombre-eng' => '2x3 PLAIN 33LB'),
     '4x4-trigo' => array('imagenes' => 'trigo/4x4-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => '4x4 15KG', 'sku' => 'PTFTBR001', 'nombre-eng' => '4x4 33LB'),
-    '4x8-trigo' => array('imagenes' => 'trigo/4x8-de-trigo', 'sugerencia' => 'j-f-cl',
+    '4x8-trigo' => array('imagenes' => 'trigo/4x8-de-trigo', 'sugerencia' => 'j-f-cl', 'extra'=>'duritos2',
         'ingredientes' => 'trigo', 'nombre' => '4x8 15KG', 'sku' => 'PTFTBR004', 'nombre-eng' => '4x8 33LB'),
     'anillo-trigo' => array('imagenes' => 'trigo/anillo-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'ANILLO 20KG', 'sku' => 'PTFTAR008', 'nombre-eng' => 'RING 44LB'),
@@ -102,9 +102,9 @@ $productos = array(
         'ingredientes' => 'trigo', 'nombre' => 'DONITA 20KG', 'sku' => 'PTFTAR009', 'nombre-eng' => 'DOUGHNUT 44LB'),
     'espacial-trigo' => array('imagenes' => 'trigo/espacial-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'ESPACIAL 15KG', 'sku' => 'PTFTAR003', 'nombre-eng' => 'SPACE 33LB'),
-    'magno-rendidor-trigo' => array('imagenes' => 'trigo/magno-rendidor-20-de-trigo', 'sugerencia' => 'j-f-cl',
+    'magno-rendidor-trigo' => array('imagenes' => 'trigo/magno-rendidor-20-de-trigo', 'sugerencia' => 'j-f-cl','extra'=>'duritos2',
         'ingredientes' => 'trigo', 'nombre' => 'MAGNO RENDIDOR 20KG', 'sku' => 'PT10CL010', 'nombre-eng' => 'MAGNO RENDIDOR 44LB'),
-    'magno-retro-trigo' => array('imagenes' => 'trigo/magno-retro-de-trigo', 'sugerencia' => 'j-f-cl',
+    'magno-retro-trigo' => array('imagenes' => 'trigo/magno-retro-de-trigo', 'sugerencia' => 'j-f-cl','extra'=>'duritos2',
         'ingredientes' => 'trigo', 'nombre' => 'MAGNO RETRO 20KG', 'sku' => 'PT10CL007', 'nombre-eng' => 'MAGNO RETRO 44LB'),
     'mini-cuadro-trigo' => array('imagenes' => 'trigo/mini-cuadro-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'MINI CUADRO 20KG', 'sku' => 'PTFTAR005', 'nombre-eng' => 'MINI SQUARE 44LB'),
@@ -228,7 +228,7 @@ $productos = array(
                     </div>
                 </div>
             </div>
-            <div class="row row-pellet-frito">
+            <div class="row row-pellet-frito <?php if($productos[$producto]['extra']) echo $productos[$producto]['extra'];?>">
                 <div class="col-lg-4 col-md-12 col-12 offset-lg-2  wow bounceIn" data-wow-delay=".4s">
                     <div class="d-image-pellet">
                         <img src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/pellet.png" alt="">
@@ -239,7 +239,7 @@ $productos = array(
 
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".6s">
-                    <div class="d-image-frito">
+                    <div class="d-image-frito <?php if($productos[$producto]['extra']) echo $productos[$producto]['extra'];?>">
                         <img class="frito"
                             src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/frito.png" alt="">
                         <br>
