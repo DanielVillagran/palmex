@@ -327,15 +327,23 @@ body.body-bg {
 }
 
 .d-image-medidas > img {
-    width: 310px;
+    width: 370px;
+}
+
+.d-image-pellet{
+    text-align: center;
+}
+
+.d-image-frito {
+    text-align: center;
 }
 
 .d-image-pellet > img {
-    width: 100%;
+    width: 90%;
 }
 
 .d-image-frito > img {
-    width: 100%;
+    width: 90%;
 }
 
 .row-pellet-frito {
@@ -386,10 +394,6 @@ body.body-bg {
     animation: bounceIn 1s;
 }
 
-.d-image-frito {
-    text-align: right;
-}
-
 .d-image-frito .image-pop {
     visibility: hidden;
     margin-top: -456px;
@@ -407,6 +411,7 @@ body.body-bg {
     visibility: visible;
     -webkit-animation: bounceIn 1s;
     animation: bounceIn 1s;
+    margin-left: 145px;
 }
 
 .d-image-arrow{
@@ -564,4 +569,21 @@ body.body-bg {
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 50px;
+}
+
+.d-marca-de-agua{
+    position: absolute;
+    right: 0px;
+    top: -40px;
+}
+
+.d-marca-de-agua.snackit{
+    position: absolute;
+    right: 0px;
+    top: -11px;
+}
+
+
+.d-marca-de-agua > img{
+    width: 240px;
 }

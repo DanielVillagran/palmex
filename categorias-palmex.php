@@ -60,7 +60,7 @@ if (isset($_GET['language'])) {
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-btn-idioma">
-                        <button type="button" id="<?php if ($_SESSION['lang'] != "eng") {echo "to_eng";} else {echo "to_esp";}?>"  class="btn btn-idioma wow fadeInLeft" data-wow-delay=".2s">
+                        <button type="button" id="<?php if ($_SESSION['lang'] != "eng") {echo "to_eng";} else {echo "to_esp";}?>" class="btn btn-idioma wow fadeInLeft" data-wow-delay=".2s">
                             <?php if ($_SESSION['lang'] == "eng") {?>
                             <img src="images/icons/estados-unidos.svg"><span>Change Language</span>
                             <?php } else {?>
@@ -83,6 +83,13 @@ if (isset($_GET['language'])) {
                         <?php } else {?>
                         <p class="t1">SEGMENTOS</p>
                         <?php }?>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="d-marca-de-agua">
+                        <img src="images/logo-marca-de-agua.png" alt="">
                     </div>
                 </div>
             </div>
@@ -170,43 +177,43 @@ if (isset($_GET['language'])) {
                     <div class="d-filtro">
                         <div class="d-title-filtro">
                             <p class="t1 wow fadeInLeft" data-wow-delay=".1s">
-                            <?php if ($_SESSION['lang'] == "eng") {?>
-                                Select products by<span>-</span><b>principal ingredient</b></p>
-                        <?php } else {?>
+                                <?php if ($_SESSION['lang'] == "eng") {?>
+                                Select products by<span>-</span><b>main ingredient</b></p>
+                            <?php } else {?>
                             Selecciona los productos por<span>-</span><b>ingrediente principal</b></p>
-                        <?php }?>
-                           
+                            <?php }?>
+
                         </div>
                         <div class="d-btns-ingredientes">
                             <ul>
                                 <li class="wow fadeInUp" data-wow-delay=".2s"><a class="btn btn-icon-ingredientes" href="productos-maiz.php" role="button"><img src="images/icon-ingredientes/maiz.png" alt="Maiz">
-                                <?php if ($_SESSION['lang'] == "eng") {?>
-                        Corn
-                        <?php } else {?>
-                            Maíz
-                        <?php }?>
-                                </a></li>
+                                        <?php if ($_SESSION['lang'] == "eng") {?>
+                                        Corn
+                                        <?php } else {?>
+                                        Maíz
+                                        <?php }?>
+                                    </a></li>
                                 <li class="wow fadeInUp" data-wow-delay=".4s"><a class="btn btn-icon-ingredientes" href="productos-trigo.php" role="button"><img src="images/icon-ingredientes/trigo.png" alt="Trigo">
-                                <?php if ($_SESSION['lang'] == "eng") {?>
-                        Wheat
-                        <?php } else {?>
-                        Trigo
-                        <?php }?>
-                        </a></li>
+                                        <?php if ($_SESSION['lang'] == "eng") {?>
+                                        Wheat
+                                        <?php } else {?>
+                                        Trigo
+                                        <?php }?>
+                                    </a></li>
                                 <li class="wow fadeInUp" data-wow-delay=".6s"><a class="btn btn-icon-ingredientes" href="productos-papa.php" role="button"><img src="images/icon-ingredientes/papa.png" alt="Papa">
-                                <?php if ($_SESSION['lang'] == "eng") {?>
-                        Potato
-                        <?php } else {?>
-                        Papa
-                        <?php }?>
-                        </a></li>
+                                        <?php if ($_SESSION['lang'] == "eng") {?>
+                                        Potato
+                                        <?php } else {?>
+                                        Papa
+                                        <?php }?>
+                                    </a></li>
                                 <li class="wow fadeInUp" data-wow-delay=".8s"><a class="btn btn-icon-ingredientes multigrano" href="productos-multigrano.php" role="button"><img src="images/icon-ingredientes/multigrano.png" alt="Multigrano">
-                                <?php if ($_SESSION['lang'] == "eng") {?>
-                        Multigrain
-                        <?php } else {?>
-                        Multigrano
-                        <?php }?>
-                                </a></li>
+                                        <?php if ($_SESSION['lang'] == "eng") {?>
+                                        Multigrain
+                                        <?php } else {?>
+                                        Multigrano
+                                        <?php }?>
+                                    </a></li>
                             </ul>
                         </div>
                     </div>

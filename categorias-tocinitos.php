@@ -73,6 +73,13 @@ if ($_SESSION['lang'] == 'eng') {
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="d-marca-de-agua">
+                        <img src="images/logo-marca-de-agua.png" alt="">
+                    </div>
+                </div>
+            </div>
             <div class="row row-items-cat">
                 <?php
 foreach ($productos as $key => $value) {

@@ -79,18 +79,25 @@ $productos = array(
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="d-marca-de-agua snackit">
+                        <img src="images/logo-marca-de-agua.png" alt="">
+                    </div>
+                </div>
+            </div>
             <div class="row row-items-cat">
                 <?php
 foreach ($productos as $key => $value) {
     ?>
-            <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
-                <div class="d-item-cat">
-                <a  href="producto.php?producto=<?php echo $key; ?>">
-                        <img src="productos/platos/<?php echo $value['imagenes']; ?>/principal<?php echo $lang; ?>.png" alt="">
-                    </a>
+                <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
+                    <div class="d-item-cat">
+                        <a href="producto.php?producto=<?php echo $key; ?>">
+                            <img src="productos/platos/<?php echo $value['imagenes']; ?>/principal<?php echo $lang; ?>.png" alt="">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <?php
+                <?php
 }
 ?>
             </div>
@@ -100,14 +107,12 @@ foreach ($productos as $key => $value) {
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"
-       >
+    <script src="js/popper.min.js">
     </script>
-    <script src="js/bootstrap.min.js"
-        >
+    <script src="js/bootstrap.min.js">
     </script>
     <script src="js/wow.js"></script>
-    
+
     <script src="js/main.js" defer></script>
     <script src="js/onlywow.js" defer></script>
 
