@@ -1,8 +1,8 @@
 <?php
 session_start();
-$lang="";
-if($_SESSION['lang']=='eng'){
-    $lang='-eng';
+$lang = "";
+if ($_SESSION['lang'] == 'eng') {
+    $lang = '-eng';
 }
 $productos = array(
     'hojuela-clasica-papa' => array('imagenes' => 'papa/hojuela-clasica-de-papa', 'sugerencia' => '',
@@ -63,11 +63,16 @@ $productos = array(
     <section class="sec-cat">
         <div class="container">
             <div class="row">
+            <div class="col-lg-12 col-md-12">
+                    <div class="d-logo">
+                        <img src="images/logo-palmex.png" alt="">
+                    </div>
+                </div>
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-title-cat wow bounceInDown" data-wow-delay=".1s">
                         <?php
-                        if($_SESSION['lang']=='eng'){
-                        ?>
+if ($_SESSION['lang'] == 'eng') {
+    ?>
                         <p class="t1">POTATO CHIPS</p>
                         <?php } else {?>
                         <p class="t1">CHIPS</p>
@@ -75,13 +80,7 @@ $productos = array(
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-12">
-                    <div class="d-marca-de-agua">
-                        <img src="images/logo-marca-de-agua.png" alt="">
-                    </div>
-                </div>
-            </div>
+           
             <div class="row row-items-cat">
                 <?php
 foreach ($productos as $key => $value) {

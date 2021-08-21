@@ -52,7 +52,13 @@ session_start();
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-info-cat-cent">
                         <div class="d-title-cat border-none wow bounceIn" data-wow-delay=".1s">
-                            <p class="t1">Tocinitos</p>
+                        <?php
+if ($_SESSION['lang'] == 'eng') {
+    ?>
+                            <p class="t1">BACONS</p>
+                        <?php } else {?>
+                            <p class="t1">TOCINITOS</p>
+                            <?php }?>
                         </div>
                         <div class="d-preloader wow fadeIn" data-wow-delay=".8s">
                             <img src="images/rueda.gif" alt="">

@@ -73,19 +73,18 @@ $productos = array(
     <section class="sec-cat">
         <div class="container">
             <div class="row">
+            <div class="col-lg-12 col-md-12">
+                    <div class="d-logo">
+                        <img src="images/logo-palmex.png" alt="">
+                    </div>
+                </div>
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-title-cat wow bounceInDown" data-wow-delay=".1s">
                         <p class="t1">PALMEX HAZ TU BOTANA - PALMEX SNACKIT</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-12">
-                    <div class="d-marca-de-agua snackit">
-                        <img src="images/logo-marca-de-agua.png" alt="">
-                    </div>
-                </div>
-            </div>
+          
             <div class="row row-items-cat">
                 <?php
 foreach ($productos as $key => $value) {

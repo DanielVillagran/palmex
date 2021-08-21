@@ -55,9 +55,9 @@ session_start();
                         <?php
                         if($_SESSION['lang']=='eng'){
                         ?>
-                        <p class="t1">POTATO CHIPS</p>
+                        <p class="t1">CLASSICS</p>
                         <?php } else {?>
-                            <p class="t1">CHIPS</p>
+                            <p class="t1">CLASICOS</p>
                             <?php }?>
                         </div>
                         <div class="d-preloader wow fadeIn" data-wow-delay=".8s">
