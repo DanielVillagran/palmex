@@ -86,13 +86,6 @@ if (isset($_GET['language'])) {
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-12">
-                    <div class="d-marca-de-agua">
-                        <img src="images/logo-marca-de-agua.png" alt="">
-                    </div>
-                </div>
-            </div>
             <div class="row row-items-cat">
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".7s">
                     <div class="d-item-cat">
