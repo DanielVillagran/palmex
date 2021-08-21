@@ -404,7 +404,7 @@ body.body-bg {
     visibility: hidden;
     margin-top: -590px;
     width: 450px;
-    margin-left: -40px;
+    margin-left: 0px;
 }
 
 .d-image-frito:hover > .image-pop {
