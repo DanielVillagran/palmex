@@ -85,12 +85,12 @@
 
     .d-image-frito .image-pop {
         visibility: visible;
-        width: 100% !important;
-        margin-top: -600px !important;
+        width: 95% !important;
+        margin-top: -350px !important;
         margin-left: 0px;
     }
     
-    .d-image-frito.duritos .image-pop {
+    .d-image-frito.duritos2 .image-pop {
         visibility: visible;
         width: 88% !important;
         margin-top: -380px !important;
