@@ -402,9 +402,9 @@ body.body-bg {
 
 .d-image-frito.duritos2 .image-pop{
     visibility: hidden;
-    margin-top: -590px;
+    margin-top: -530px;
     width: 450px;
-    margin-left: 0px;
+    margin-left: -40px !important;
 }
 
 .d-image-frito:hover > .image-pop {
