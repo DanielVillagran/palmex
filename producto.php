@@ -313,7 +313,7 @@ if ($productos[$producto]['ingredientes'] == 'maiz') {
                 <div class="d-btn-ficha wow fadeInUp" data-wow-delay=".5s">
                     <a class="btn btn-ficha"
                          href="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/ficha-comercial<?php echo $lang; ?>.jpg"
-                        target='_blank' role="button"><i class="fas fa-file-alt"></i>Descargar ficha
+                        target='_blank' role="button"><i class="fas fa-arrow-down"></i>Descargar ficha
                         comercial</a>
                 </div>
             </div>

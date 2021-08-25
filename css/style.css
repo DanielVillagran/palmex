@@ -454,7 +454,7 @@ body.body-bg {
 }
 
 .btn-ficha{
-    background-color: #A12519;
+    background-color: rgba(255,255,255,.1);
     color: rgba(255,255,255,.8);
     font-family: "Roboto";
     width: 100%;
