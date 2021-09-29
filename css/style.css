@@ -1,64 +1,64 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Light.ttf') format('ttf');
-  font-weight: 300;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('ttf');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Medium.ttf') format('ttf');
-  font-weight: 500;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Bold.ttf') format('ttf');
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat/Montserrat-Light.ttf') format('ttf');
-  font-weight: 300;
-  font-style: normal;
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat/Montserrat-Regular.ttf') format('ttf');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat/Montserrat-Medium.ttf') format('ttf');
-  font-weight: 500;
-  font-style: normal;
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('ttf');
-  font-weight: 600;
-  font-style: normal;
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat/Montserrat-Bold.ttf') format('ttf');
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
 }
 
 body {
@@ -160,24 +160,31 @@ body.body-bg {
 .viva-mexico {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg-viva-mexico.jpg);
 }
+
 .chips {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/chips.jpg);
 }
+
 .palmix {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/pal-mix.jpg);
 }
+
 .clasicos {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/clasicos.jpg);
 }
+
 .duritos {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/duritos.jpg);
 }
+
 .fiesta {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/fiesta.jpg);
 }
+
 .nutritivos {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/nutritivos.jpg);
 }
+
 .tocinitos {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/tocinitos.jpg);
 }
@@ -216,9 +223,9 @@ body.body-bg {
     text-align: center;
 }
 
-.d-preloader > img{
+.d-preloader > img {
     padding: 15px;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 5px;
     width: 90px;
 }
@@ -257,6 +264,7 @@ body.body-bg {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
 .d-title-cat .t2 {
     display: inline-block;
     color: #FFFFFF;
@@ -330,7 +338,7 @@ body.body-bg {
     width: 370px;
 }
 
-.d-image-pellet{
+.d-image-pellet {
     text-align: center;
 }
 
@@ -339,19 +347,20 @@ body.body-bg {
 }
 
 .d-image-pellet > img {
-    width: 90%;
+    width: 80%;
 }
 
 .d-image-frito > img {
-    width: 90%;
+    width: 80%;
 }
 
 .row-pellet-frito {
     margin-top: 30px;
 }
 
-.row-pellet-frito.duritos2{
-    margin-top: 70px;
+.row-pellet-frito.duritos2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .d-ingrediente {
@@ -383,79 +392,93 @@ body.body-bg {
 
 .d-image-pellet .image-pop {
     margin-top: -430px;
-    margin-left: -140px;
-    width: 160%;
-    visibility: hidden;
+    margin-left: -180px;
+    width: 185%;
 }
 
+/*
 .d-image-pellet:hover > .image-pop {
     visibility: visible;
     -webkit-animation: bounceIn 1s;
     animation: bounceIn 1s;
 }
+*/
 
 .d-image-frito .image-pop {
-    visibility: hidden;
-    margin-top: -456px;
-    width: 230px;
-}
-
-.d-image-frito.duritos2 .image-pop{
-    visibility: hidden;
-    margin-top: -530px;
-    width: 450px;
-    margin-left: -40px !important;
-}
-
-.d-image-frito:hover > .image-pop {
-    visibility: visible;
-    -webkit-animation: bounceIn 1s;
-    animation: bounceIn 1s;
+    margin-top: -480px;
+    width: 260px;
     margin-left: 145px;
 }
 
-.d-image-arrow{
+.duritos2 .d-image-pellet .pellet{
+    width: 100%;
+}
+
+.duritos2 .d-image-pellet .image-pop{
+    margin-top: -415px;
+    width: 480px;
+    margin-left: -100px;
+}
+
+.duritos2 .d-image-frito .frito{
+    width: 100%;
+}
+
+.duritos2 .d-image-frito .image-pop{
+    width: 450px;
+    margin-left: -50px;
+    margin-top: -600px;
+}
+
+/*.d-image-frito:hover > .image-pop {
+    visibility: visible; 
+    -webkit-animation: bounceIn 1s;
+    animation: bounceIn 1s;
+    margin-left: 145px;
+}*/
+
+.d-image-arrow {
     text-align: center;
     margin-top: -100px
 }
 
-.d-image-arrow > img{
+.d-image-arrow > img {
     width: 60px;
     opacity: .4;
 }
 
-.d-btn-idioma{
+.d-btn-idioma {
     text-align: t;
 }
 
-.btn-idioma{
-    color: rgba(255,255,255,.75);
+.btn-idioma {
+    color: rgba(255, 255, 255, .75);
     font-family: "Roboto";
     font-size: 12px;
     transition: .3s;
 }
 
-.btn-idioma:hover{
+.btn-idioma:hover {
     color: #FFFFFF;
 }
 
-.btn-idioma > img{
+.btn-idioma > img {
     width: 24px;
     margin-right: 10px;
     margin-top: -1px;
 }
 
-.sec-ficha{
+.sec-ficha {
     padding-bottom: 80px;
 }
 
-.d-btn-ficha{
+.d-btn-ficha {
     text-align: center;
 }
 
-.btn-ficha{
-    background-color: rgba(255,255,255,.1);
-    color: rgba(255,255,255,.8);
+.btn-ficha {
+    background-color: rgba(255, 255, 255, .1);
+    color: rgba(255, 255, 255, .8);
     font-family: "Roboto";
     width: 100%;
     padding-top: 8px;
@@ -464,76 +487,77 @@ body.body-bg {
     border-radius: 5px;
 }
 
-.btn-ficha:hover{
+.btn-ficha:hover {
     color: #FFFFFF;
 }
 
-.btn-ficha > i{
+.btn-ficha > i {
     margin-right: 10px;
     font-size: 16px;
     transform: translateY(1px);
 }
 
-.row-icons-ingredientes{
+.row-icons-ingredientes {
     margin-top: 20px;
 }
 
-.d-btns-ingredientes ul{
+.d-btns-ingredientes ul {
     padding: 0px;
     margin: 0px;
     text-align: center;
 }
 
 
-.d-btns-ingredientes ul li{
+.d-btns-ingredientes ul li {
     display: inline-block;
 }
 
-.btn-icon-ingredientes{
-    color: rgba(255,255,255,.8);
+.btn-icon-ingredientes {
+    color: rgba(255, 255, 255, .8);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: .6px;
 }
 
-.btn-icon-ingredientes:hover{
+.btn-icon-ingredientes:hover {
     color: #FFFFFF;
 }
 
-.btn-icon-ingredientes:hover > img{
+.btn-icon-ingredientes:hover > img {
     transform: scale(1.1);
 }
 
-.btn-icon-ingredientes > img{
+.btn-icon-ingredientes > img {
     width: 60px;
     margin-right: 8px;
     transition: .3s;
 }
 
-.btn-icon-ingredientes.multigrano > img{
+.btn-icon-ingredientes.multigrano > img {
     width: 50px;
 }
-.width-300{
+
+.width-300 {
     width: 300px
 }
 
-.d-logo > img{
+.d-logo > img {
     width: 200px;
 }
 
-.row-title-segmentos{
+.row-title-segmentos {
     margin-top: 30px;
 }
 
-.d-logo{
+.d-logo {
     margin-bottom: -60px;
 }
 
-.d-title-filtro{
+.d-title-filtro {
     margin-right: 30px;
 }
 
-.d-title-filtro .t1{
+.d-title-filtro .t1 {
     color: #FFFFFF;
     text-align: center;
     font-size: 16px;
@@ -541,7 +565,8 @@ body.body-bg {
     margin-bottom: 0px;
     margin-top: 10px;
 }
-.d-title-filtro .t2{
+
+.d-title-filtro .t2 {
     color: #FFFFFF;
     text-align: center;
     font-size: 12px;
@@ -550,19 +575,19 @@ body.body-bg {
     margin-top: 10px;
 }
 
-.d-title-filtro .t1 > b{
+.d-title-filtro .t1 > b {
     font-size: 21px;
 }
 
-.d-title-filtro .t1 > span{
+.d-title-filtro .t1 > span {
     font-size: 0px;
     display: block;
 }
 
-.d-filtro{
+.d-filtro {
     display: flex;
     justify-content: center;
-    background-color: rgba(255,255,255,.07);
+    background-color: rgba(255, 255, 255, .07);
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -571,19 +596,19 @@ body.body-bg {
     margin-top: 50px;
 }
 
-.d-marca-de-agua{
+.d-marca-de-agua {
     position: absolute;
     right: 0px;
     top: -40px;
 }
 
-.d-marca-de-agua.snackit{
+.d-marca-de-agua.snackit {
     position: absolute;
     right: 0px;
     top: -11px;
 }
 
 
-.d-marca-de-agua > img{
+.d-marca-de-agua > img {
     width: 240px;
 }
