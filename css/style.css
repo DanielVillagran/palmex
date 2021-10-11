@@ -477,24 +477,31 @@ body.body-bg {
 }
 
 .btn-ficha {
-    background-color: rgba(255, 255, 255, .1);
-    color: rgba(255, 255, 255, .8);
+    background-color: #FFFFFF;
+    color: #000000;
     font-family: "Roboto";
     width: 100%;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 100px;
+    font-weight: 500;
+    margin-top: 10px;
 }
 
 .btn-ficha:hover {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .btn-ficha > i {
     margin-right: 10px;
-    font-size: 16px;
+    font-size: 18px;
     transform: translateY(1px);
+    transition: .3s;
+}
+
+.btn-ficha:hover > i{
+    transform: translateY(4px);
 }
 
 .row-icons-ingredientes {
