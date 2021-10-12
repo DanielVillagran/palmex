@@ -80,13 +80,13 @@
     }
 
     .d-image-frito > img {
-        width: 65% !important;
+        width: 58% !important;
     }
 
     .d-image-frito .image-pop {
         visibility: visible;
         width: 53% !important;
-        margin-top: -350px !important;
+        margin-top: -315px !important;
         margin-left: 0px;
     }
 
