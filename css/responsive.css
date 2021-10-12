@@ -92,11 +92,11 @@
 
     .duritos2 .d-image-pellet .image-pop {
         margin-left: -22px;
-        width: 100%!important;
+        width: 100% !important;
     }
-    
-    .duritos2 .d-image-frito > .frito{
-        width: 75%!important;
+
+    .duritos2 .d-image-frito > .frito {
+        width: 75% !important;
     }
 
     .duritos2 .d-image-frito .image-pop {
@@ -177,6 +177,14 @@
 
     .d-title-filtro {
         margin-right: 0px;
+    }
+
+    .d-marca-de-agua.producto > img {
+        width: 170px;
+    }
+    
+    .d-marca-de-agua{
+        right: 10px;
     }
 
 }

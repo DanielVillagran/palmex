@@ -176,7 +176,7 @@ $productos = array(
 
     <!-- PLUGIN FONT AWESOME -->
     <link rel="stylesheet" href="css/all.css">
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -224,6 +224,14 @@ $productos = array(
                     </div>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="d-marca-de-agua producto">
+                        <img src="images/logo-marca-de-agua.png" alt="">
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-image-medidas wow fadeInUp" data-wow-delay=".4s">
@@ -235,24 +243,19 @@ $productos = array(
                 <div class="col-lg-4 col-md-12 col-12 offset-lg-2  wow bounceIn" data-wow-delay=".4s">
                     <div class="d-image-pellet">
                         <img class="pellet" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/pellet.png" alt="">
-                        <img class="image-pop"
-                            src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/info-pellet<?php echo $lang; ?>.png"
-                            alt="">
+                        <img class="image-pop" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/info-pellet<?php echo $lang; ?>.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".6s">
                     <div class="d-image-frito <?php if($productos[$producto]['extra']) echo $productos[$producto]['extra'];?>">
-                        <img class="frito"
-                            src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/frito.png" alt="">
+                        <img class="frito" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/frito.png" alt="">
                         <br>
-                        <img class="image-pop"
-                            src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/info-frito<?php echo $lang; ?>.png"
-                            alt="">
+                        <img class="image-pop" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/info-frito<?php echo $lang; ?>.png" alt="">
                     </div>
                 </div>
             </div>
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-4 col-md-12 col-12 offset-lg-2  wow bounceIn" data-wow-delay=".4s">
                     <div class="d-image-arrow">
                         <img src="images/arrow-1.gif" alt="">
@@ -263,7 +266,7 @@ $productos = array(
                         <img src="images/arrow-1.gif" alt="">
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </section>
 
@@ -298,8 +301,7 @@ if ($productos[$producto]['ingredientes'] == 'maiz') {
                 </div>
                 <div class="col-lg-3 col-md-5 col-5 order-lg-last order-first">
                     <div class="d-presentacion wow fadeInUp" data-wow-delay=".8s">
-                        <img src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/presentacion<?php echo $lang; ?>.png"
-                            alt="">
+                        <img src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/presentacion<?php echo $lang; ?>.png" alt="">
                     </div>
                 </div>
             </div>
@@ -310,9 +312,7 @@ if ($productos[$producto]['ingredientes'] == 'maiz') {
         <div class="container">
             <div class="col-lg-4 col-md-6 col-12 offset-lg-4 offset-md-3">
                 <div class="d-btn-ficha wow fadeInUp" data-wow-delay=".5s">
-                    <a class="btn btn-ficha"
-                         href="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/ficha-comercial<?php echo $lang; ?>.jpg"
-                        target='_blank' role="button"><i class="fas fa-arrow-down"></i>Descargar ficha
+                    <a class="btn btn-ficha" href="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/ficha-comercial<?php echo $lang; ?>.jpg" target='_blank' role="button"><i class="fas fa-arrow-down"></i>Descargar ficha
                         comercial</a>
                 </div>
             </div>
@@ -322,11 +322,9 @@ if ($productos[$producto]['ingredientes'] == 'maiz') {
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"
-       >
+    <script src="js/popper.min.js">
     </script>
-    <script src="js/bootstrap.min.js"
-        >
+    <script src="js/bootstrap.min.js">
     </script>
     <script src="js/wow.js"></script>
 
@@ -334,7 +332,8 @@ if ($productos[$producto]['ingredientes'] == 'maiz') {
 
 
     <script>
-    new WOW().init();
+        new WOW().init();
+
     </script>
 
 

@@ -410,21 +410,21 @@ body.body-bg {
     margin-left: 145px;
 }
 
-.duritos2 .d-image-pellet .pellet{
+.duritos2 .d-image-pellet .pellet {
     width: 100%;
 }
 
-.duritos2 .d-image-pellet .image-pop{
+.duritos2 .d-image-pellet .image-pop {
     margin-top: -415px;
     width: 480px;
     margin-left: -100px;
 }
 
-.duritos2 .d-image-frito .frito{
+.duritos2 .d-image-frito .frito {
     width: 100%;
 }
 
-.duritos2 .d-image-frito .image-pop{
+.duritos2 .d-image-frito .image-pop {
     width: 450px;
     margin-left: -50px;
     margin-top: -600px;
@@ -447,13 +447,10 @@ body.body-bg {
     opacity: .4;
 }
 
-.d-btn-idioma {
-    text-align: t;
-}
-
 .btn-idioma {
     color: rgba(255, 255, 255, .75);
-    font-family: "Roboto";
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
     font-size: 12px;
     transition: .3s;
 }
@@ -479,13 +476,13 @@ body.body-bg {
 .btn-ficha {
     background-color: #FFFFFF;
     color: #000000;
-    font-family: "Roboto";
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 14px;
     border-radius: 100px;
-    font-weight: 500;
     margin-top: 10px;
 }
 
@@ -500,7 +497,7 @@ body.body-bg {
     transition: .3s;
 }
 
-.btn-ficha:hover > i{
+.btn-ficha:hover > i {
     transform: translateY(4px);
 }
 
@@ -618,4 +615,8 @@ body.body-bg {
 
 .d-marca-de-agua > img {
     width: 240px;
+}
+
+.d-marca-de-agua.producto{
+    top: -80px;
 }
