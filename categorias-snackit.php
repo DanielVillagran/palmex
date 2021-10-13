@@ -80,7 +80,7 @@ $productos = array(
                 </div>
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-title-cat wow bounceInDown" data-wow-delay=".1s">
-                        <p class="t1">PALMEX HAZ TU BOTANA - PALMEX SNACKIT</p>
+                        <p class="t1 snackit">PALMEX HAZ TU BOTANA - PALMEX SNACKIT</p>
                     </div>
                 </div>
             </div>

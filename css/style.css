@@ -265,6 +265,10 @@ body.body-bg {
     letter-spacing: 2px;
 }
 
+.d-title-cat .t1.snackit{
+    margin-top: 70px;
+}
+
 .d-title-cat .t2 {
     display: inline-block;
     color: #FFFFFF;
@@ -612,11 +616,32 @@ body.body-bg {
     top: -11px;
 }
 
-
 .d-marca-de-agua > img {
     width: 240px;
 }
 
 .d-marca-de-agua.producto{
     top: -80px;
+}
+
+.row-pellet-frito.snackit{
+    margin-top: 150px;
+}
+
+.snackit .d-image-pellet > .image-pop{
+    width: 70%;
+    margin-left: 0px;
+    margin-top: -355px;
+    transform: translateX(-170px);
+}
+
+.snackit .d-image-frito > .frito{
+    width: 95%;
+    margin-top: -33px;
+}
+
+.snackit .d-image-frito > .image-pop{
+    width: 170%;
+    margin-left: -160px;
+    margin-top: -460px;
 }

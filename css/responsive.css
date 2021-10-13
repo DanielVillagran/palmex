@@ -182,9 +182,39 @@
     .d-marca-de-agua.producto > img {
         width: 170px;
     }
-    
-    .d-marca-de-agua{
+
+    .d-marca-de-agua {
         right: 10px;
+    }
+
+    .row-pellet-frito.snackit {
+        margin-top: 80px !important;
+    }
+
+    .snackit .d-image-pellet > .image-pop {
+        width: 55% !important;
+        margin-left: 0px;
+        margin-top: -260px !important;
+        transform: translateX(-95px);
+    }
+
+    .snackit .d-image-frito {
+        margin-top: 100px;
+    }
+
+    .snackit .d-image-frito > .frito {
+        width: 72% !important;
+        margin-top: -33px;
+    }
+
+    .snackit .d-image-frito > .image-pop {
+        width: 110% !important;
+        margin-left: -20px;
+        margin-top: -3q0px !important;
+    }
+
+    .d-title-cat .t1.snackit {
+        margin-top: 0px;
     }
 
 }
