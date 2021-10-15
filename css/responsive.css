@@ -84,23 +84,14 @@
     }
 
     /* RESOLUCION MOVIL FRITO */
-
     .d-image-frito .image-pop {
         visibility: visible;
-<<<<<<< HEAD
-<<<<<<< HEAD
         width: 60% !important;
         margin-top: -255px !important;
-=======
-=======
->>>>>>> 9e52f657b868526eb2f6103db27dd119a0e5ecbb
-        width: 43% !important;
-        margin-top: -315px !important;
->>>>>>> 9e52f657b868526eb2f6103db27dd119a0e5ecbb
         margin-left: 0px;
     }
-
     /* END RESOLUCION MOVIL FRITO */
+    
     .duritos2 .d-image-pellet .image-pop {
         margin-left: -22px;
         width: 100% !important;
