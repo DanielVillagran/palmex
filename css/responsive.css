@@ -86,8 +86,8 @@
     /* RESOLUCION MOVIL FRITO */
     .d-image-frito .image-pop {
         visibility: visible;
-        width: 60% !important;
-        margin-top: -255px !important;
+        width: 50% !important;
+        margin-top: -325px !important;
         margin-left: 0px;
     }
     /* END RESOLUCION MOVIL FRITO */
@@ -212,7 +212,7 @@
     .snackit .d-image-frito > .image-pop {
         width: 110% !important;
         margin-left: -20px;
-        margin-top: -3q0px !important;
+        margin-top: -30px !important;
     }
 
     .d-title-cat .t1.snackit {
