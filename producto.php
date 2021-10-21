@@ -82,7 +82,7 @@ $productos = array(
         'ingredientes' => 'trigo', 'nombre' => '2x3 LISO 15KG', 'sku' => 'PTFTBR009', 'nombre-eng' => '2x3 PLAIN 33LB'),
     '4x4-trigo' => array('imagenes' => 'trigo/4x4-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => '4x4 15KG', 'sku' => 'PTFTBR001', 'nombre-eng' => '4x4 33LB'),
-    '4x8-trigo' => array('imagenes' => 'trigo/4x8-de-trigo', 'sugerencia' => 'j-f-cl', 'extra'=>'duritos2',
+    '4x8-trigo' => array('imagenes' => 'trigo/4x8-de-trigo', 'sugerencia' => 'j-f-cl', 'extra' => 'duritos2',
         'ingredientes' => 'trigo', 'nombre' => '4x8 15KG', 'sku' => 'PTFTBR004', 'nombre-eng' => '4x8 33LB'),
     'anillo-trigo' => array('imagenes' => 'trigo/anillo-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'ANILLO 20KG', 'sku' => 'PTFTAR008', 'nombre-eng' => 'RING 44LB'),
@@ -102,9 +102,9 @@ $productos = array(
         'ingredientes' => 'trigo', 'nombre' => 'DONITA 20KG', 'sku' => 'PTFTAR009', 'nombre-eng' => 'DOUGHNUT 44LB'),
     'espacial-trigo' => array('imagenes' => 'trigo/espacial-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'ESPACIAL 15KG', 'sku' => 'PTFTAR003', 'nombre-eng' => 'SPACE 33LB'),
-    'magno-rendidor-trigo' => array('imagenes' => 'trigo/magno-rendidor-20-de-trigo', 'sugerencia' => 'j-f-cl','extra'=>'duritos2',
+    'magno-rendidor-trigo' => array('imagenes' => 'trigo/magno-rendidor-20-de-trigo', 'sugerencia' => 'j-f-cl', 'extra' => 'duritos2',
         'ingredientes' => 'trigo', 'nombre' => 'MAGNO RENDIDOR 20KG', 'sku' => 'PT10CL010', 'nombre-eng' => 'MAGNO RENDIDOR 44LB'),
-    'magno-retro-trigo' => array('imagenes' => 'trigo/magno-retro-de-trigo', 'sugerencia' => 'j-f-cl','extra'=>'duritos2',
+    'magno-retro-trigo' => array('imagenes' => 'trigo/magno-retro-de-trigo', 'sugerencia' => 'j-f-cl', 'extra' => 'duritos2',
         'ingredientes' => 'trigo', 'nombre' => 'MAGNO RETRO 20KG', 'sku' => 'PT10CL007', 'nombre-eng' => 'MAGNO RETRO 44LB'),
     'mini-cuadro-trigo' => array('imagenes' => 'trigo/mini-cuadro-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'MINI CUADRO 20KG', 'sku' => 'PTFTAR005', 'nombre-eng' => 'MINI SQUARE 44LB'),
@@ -144,23 +144,23 @@ $productos = array(
         'ingredientes' => 'trigo', 'nombre' => 'ZARAPE 3x2 20KG', 'sku' => 'PTFTBR032', 'nombre-eng' => 'ZARAPE 3x2 44LB'),
 
     'anillo-snackit' => array('imagenes' => 'snackit/anillo-snackit', 'sugerencia' => 'j-f-cl',
-        'ingredientes' => 'trigo', 'nombre' => 'ANILLO 750G', 'sku' => 'PTFPAR051', 'nombre-eng' => 'RING 1.6LB HAZ TU BOTANA','extra'=>'snackit'),
+        'ingredientes' => 'trigo', 'nombre' => 'ANILLO 750G', 'sku' => 'PTFPAR051', 'nombre-eng' => 'RING 1.6LB HAZ TU BOTANA', 'extra' => 'snackit'),
     'mini-cuadro-snackit' => array('imagenes' => 'snackit/mini-cuadro-snackit', 'sugerencia' => 'j-f-cl',
-        'ingredientes' => 'trigo', 'nombre' => 'MINI CUADRO 750G', 'sku' => 'PTFPAR052','nombre-eng' => 'MINI SQUARE 1.6LB HAZ TU BOTANA','extra'=>'snackit'),
+        'ingredientes' => 'trigo', 'nombre' => 'MINI CUADRO 750G', 'sku' => 'PTFPAR052', 'nombre-eng' => 'MINI SQUARE 1.6LB HAZ TU BOTANA', 'extra' => 'snackit'),
     'mini-rueda-snackit' => array('imagenes' => 'snackit/mini-rueda-snackit', 'sugerencia' => 'j-f-cl',
-        'ingredientes' => 'trigo', 'nombre' => 'MINI RUEDA 750G', 'sku' => 'PTFPAR054','nombre-eng' => 'MINI WHEEL 1.6LB HAZ TU BOTANA','extra'=>'snackit'),
+        'ingredientes' => 'trigo', 'nombre' => 'MINI RUEDA 750G', 'sku' => 'PTFPAR054', 'nombre-eng' => 'MINI WHEEL 1.6LB HAZ TU BOTANA', 'extra' => 'snackit'),
     'rotini-snackit' => array('imagenes' => 'snackit/rotini-snackit', 'sugerencia' => 'j-f-cl',
-        'ingredientes' => 'trigo', 'nombre' => 'ROTINI 750G', 'sku' => 'PTFPAR053','nombre-eng' => 'ROTINI 1.6LB HAZ TU BOTANA','extra'=>'snackit'),
+        'ingredientes' => 'trigo', 'nombre' => 'ROTINI 750G', 'sku' => 'PTFPAR053', 'nombre-eng' => 'ROTINI 1.6LB HAZ TU BOTANA', 'extra' => 'snackit'),
     'mini-cuadro-papa-snackit' => array('imagenes' => 'snackit/mini-cuadro-papa-snackit', 'sugerencia' => 'q-j-f-cl',
-        'ingredientes' => 'papa', 'nombre' => 'MINI CUADRO DE PAPA 615G', 'sku' => 'PTPVFI024','nombre-eng' => 'POTATO MINI SQUARE 1.3LB HAZ TU BOTANA','extra'=>'snackit'),
+        'ingredientes' => 'papa', 'nombre' => 'MINI CUADRO DE PAPA 615G', 'sku' => 'PTPVFI024', 'nombre-eng' => 'POTATO MINI SQUARE 1.3LB HAZ TU BOTANA', 'extra' => 'snackit'),
     'mini-rueda-papa-snackit' => array('imagenes' => 'snackit/mini-rueda-papa-snackit', 'sugerencia' => 'q-j-f-cl',
-        'ingredientes' => 'papa', 'nombre' => 'MINI RUEDA DE PAPA 615G', 'sku' => 'PTPVFI025','nombre-eng' => 'POTATO MINI WHEEL 1.3LB HAZ TU BOTANA','extra'=>'snackit'),
+        'ingredientes' => 'papa', 'nombre' => 'MINI RUEDA DE PAPA 615G', 'sku' => 'PTPVFI025', 'nombre-eng' => 'POTATO MINI WHEEL 1.3LB HAZ TU BOTANA', 'extra' => 'snackit'),
     'aro-papa-snackit' => array('imagenes' => 'snackit/aro-papa-snackit', 'sugerencia' => 'sn-j-ce-cl',
-        'ingredientes' => 'papa', 'nombre' => 'ARO DE PAPA SABOR CEBOLLA 615G', 'sku' => 'PTPVFI026','nombre-eng' => 'POTATO ONION RING 1.3LB HAZ TU BOTANA','extra'=>'snackit'),
+        'ingredientes' => 'papa', 'nombre' => 'ARO DE PAPA SABOR CEBOLLA 615G', 'sku' => 'PTPVFI026', 'nombre-eng' => 'POTATO ONION RING 1.3LB HAZ TU BOTANA', 'extra' => 'snackit'),
     'mini-rueda-453-snackit' => array('imagenes' => 'snackit/mini-rueda-453-snackit', 'sugerencia' => 'j-f-cl',
-        'ingredientes' => 'trigo', 'nombre' => 'MINI RUEDA 453G 1/12 PALMEX SNACKIT', 'sku' => 'PTFPAR057','nombre-eng' => 'MINI WHEEL 1LB PALMEX SNACKIT','extra'=>'snackit'),
+        'ingredientes' => 'trigo', 'nombre' => 'MINI RUEDA 453G 1/12 PALMEX SNACKIT', 'sku' => 'PTFPAR057', 'nombre-eng' => 'MINI WHEEL 1LB PALMEX SNACKIT', 'extra' => 'snackit'),
     'zarape-453-snackit' => array('imagenes' => 'snackit/zarape-453-snackit', 'sugerencia' => 'j-f-cl',
-        'ingredientes' => 'trigo', 'nombre' => 'ZARAPE 3x2 453G 1/12 PALMEX SNACKIT', 'sku' => 'PTFPBR052','nombre-eng' => 'ZARAPE 3x2 1LB PALMEX SNACKIT','extra'=>'snackit'),
+        'ingredientes' => 'trigo', 'nombre' => 'ZARAPE 3x2 453G 1/12 PALMEX SNACKIT', 'sku' => 'PTFPBR052', 'nombre-eng' => 'ZARAPE 3x2 1LB PALMEX SNACKIT', 'extra' => 'snackit'),
 
 );
 ?>
@@ -239,7 +239,10 @@ $productos = array(
                     </div>
                 </div>
             </div>
-            <div class="row row-pellet-frito <?php if($productos[$producto]['extra']) echo $productos[$producto]['extra'];?>">
+            <div class="row row-pellet-frito <?php if ($productos[$producto]['extra']) {
+    echo $productos[$producto]['extra'];
+}
+?>">
                 <div class="col-lg-4 col-md-12 col-12 offset-lg-2  wow bounceIn" data-wow-delay=".4s">
                     <div class="d-image-pellet">
                         <img class="pellet" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/pellet.png" alt="">
@@ -247,7 +250,10 @@ $productos = array(
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12 wow bounceIn" data-wow-delay=".6s">
-                    <div class="d-image-frito <?php if($productos[$producto]['extra']) echo $productos[$producto]['extra'];?>">
+                    <div class="d-image-frito <?php if ($productos[$producto]['extra']) {
+    echo $productos[$producto]['extra'];
+}
+?>">
                         <img class="frito" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/frito.png" alt="">
                         <br>
                         <img class="image-pop" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/info-frito<?php echo $lang; ?>.png" alt="">
@@ -312,8 +318,19 @@ if ($productos[$producto]['ingredientes'] == 'maiz') {
         <div class="container">
             <div class="col-lg-4 col-md-6 col-12 offset-lg-4 offset-md-3">
                 <div class="d-btn-ficha wow fadeInUp" data-wow-delay=".5s">
-                    <a class="btn btn-ficha" href="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/ficha-comercial<?php echo $lang; ?>.jpg" target='_blank' role="button"><i class="fas fa-arrow-down"></i>Descargar ficha
-                        comercial</a>
+                    <a class="btn btn-ficha" href="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/ficha-comercial<?php echo $lang; ?>.jpg" target='_blank' role="button"><i class="fas fa-arrow-down"></i>
+                    <?php
+if ($lang == "") {
+    ?>
+                    Descargar ficha comercial
+                    <?php
+} else {
+    ?>
+                        Download Data Sheet
+                         <?php
+}
+?>
+                    </a>
                 </div>
             </div>
         </div>
