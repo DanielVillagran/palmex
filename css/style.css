@@ -351,16 +351,17 @@ body.body-bg {
 }
 
 .d-image-pellet > img {
-    width: 80%;
+    width: 165%;
 }
 
 .d-image-frito > img {
-    width: 80%;
+    width: 165%;
 }
 
 .row-pellet-frito {
-    margin-top: 50px;
+    margin-top: -40px;
     margin-bottom: 50px;
+    margin-left: -90px;
 }
 
 .row-pellet-frito.duritos2 {

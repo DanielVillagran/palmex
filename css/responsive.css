@@ -45,18 +45,6 @@
         margin-top: 40px;
     }
 
-    .row-pellet-frito {
-        margin-top: 110px !important;
-    }
-
-    .d-image-pellet {
-        text-align: center;
-    }
-
-    .d-image-pellet > img {
-        width: 58% !important;
-    }
-
     .d-image-pellet .image-pop {
         visibility: visible;
         width: 102% !important;
@@ -72,15 +60,6 @@
 
     .d-image-arrow {
         display: none;
-    }
-
-    .d-image-frito {
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    .d-image-frito > img {
-        width: 58% !important;
     }
 
     /* RESOLUCION MOVIL FRITO */
@@ -262,15 +241,16 @@
     }
 
     .row-pellet-frito {
-        margin-top: 180px;
+        margin-top: 50px;
+        margin-left: -15px;
     }
-
-    .d-image-pellet {
-        text-align: center;
+    
+    .d-image-pellet > img{
+        width: 100%;
     }
-
-    .d-image-pellet > img {
-        width: 55%;
+    
+    .d-image-frito > img{
+        width: 100%;
     }
 
     .d-image-pellet .image-pop {
@@ -288,15 +268,6 @@
 
     .d-image-arrow {
         display: none;
-    }
-
-    .d-image-frito {
-        text-align: center;
-        margin-top: 70px;
-    }
-
-    .d-image-frito > img {
-        width: 60%;
     }
 
     .d-image-frito .image-pop {
