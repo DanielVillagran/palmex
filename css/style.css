@@ -365,8 +365,9 @@ body.body-bg {
 }
 
 .row-pellet-frito.duritos2 {
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
 }
 
 .d-ingrediente {
@@ -416,18 +417,11 @@ body.body-bg {
     margin-left: 145px;
 }
 
-.duritos2 .d-image-pellet .pellet {
-    width: 100%;
-}
 
 .duritos2 .d-image-pellet .image-pop {
     margin-top: -415px;
     width: 480px;
     margin-left: -100px;
-}
-
-.duritos2 .d-image-frito .frito {
-    width: 100%;
 }
 
 .duritos2 .d-image-frito .image-pop {
@@ -626,10 +620,6 @@ body.body-bg {
     top: -80px;
 }
 
-.row-pellet-frito.snackit{
-    margin-top: 150px;
-}
-
 .snackit .d-image-pellet > .image-pop{
     width: 70%;
     margin-left: 0px;
@@ -637,13 +627,20 @@ body.body-bg {
     transform: translateX(-170px);
 }
 
-.snackit .d-image-frito > .frito{
-    width: 95%;
-    margin-top: -33px;
-}
-
 .snackit .d-image-frito > .image-pop{
     width: 160%;
     margin-left: -130px;
     margin-top: -440px;
+}
+
+.row-pellet-frito.snackit{
+    margin-left: 0px;
+} 
+
+.duritos2 .d-image-pellet > img{
+    width: 140%;
+}
+
+.duritos2 .d-image-frito > img{
+    width: 145%;
 }
