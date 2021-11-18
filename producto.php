@@ -247,7 +247,7 @@ $productos = array(
 ?>">
                 <div class="col-lg-4 col-md-12 col-12 offset-lg-1  wow bounceIn" data-wow-delay=".4s">
                     <div class="d-image-pellet">
-                        <img class="pellet" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/pellet.png" alt="">
+                        <img class="pellet" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/pellet<?php echo $lang; ?>.png" alt="">
                         <!--<img class="image-pop" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/info-pellet<?php echo $lang; ?>.png" alt="">-->
                     </div>
                 </div>
@@ -256,7 +256,7 @@ $productos = array(
     echo $productos[$producto]['extra'];
 }
 ?>">
-                        <img class="frito" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/frito.png" alt="">
+                        <img class="frito" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/frito<?php echo $lang; ?>.png" alt="">
                        <!-- <br>
                         <img class="image-pop" src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/info-frito<?php echo $lang; ?>.png" alt="">-->
                     </div>
