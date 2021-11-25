@@ -644,3 +644,13 @@ body.body-bg {
 .duritos2 .d-image-frito > img{
     width: 145%;
 }
+
+.d-image-gluten{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+.d-image-gluten > img{
+    width: 95px;
+}

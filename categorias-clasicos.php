@@ -27,6 +27,8 @@ $productos = array(
         'ingredientes' => 'papa', 'nombre' => 'MINI RUEDA DE PAPA 15KG', 'sku' => 'PTPVFI001'),
     '2x2-trigo' => array('imagenes' => 'trigo/2x2-de-trigo', 'sugerencia' => '',
         'ingredientes' => 'trigo', 'nombre' => '2x2 20KG', 'sku' => 'PTFTBR007'),
+    'rueda-max-de-papa' => array('imagenes' => 'papa/rueda-max-de-papa', 'sugerencia' => '',
+        'ingredientes' => 'papa', 'nombre' => 'RUEDA PAPA MAX´S 15KG', 'sku' => 'PTPVMX008'),
     'mini-rueda-max-plus-papa' => array('imagenes' => 'papa/mini-rueda-max-plus-de-papa', 'sugerencia' => '',
         'ingredientes' => 'papa', 'nombre' => 'MINI RUEDA PAPA MAX´S PLUS 15KG', 'sku' => 'PTPVMX004'),
     'cabellin-trigo' => array('imagenes' => 'trigo/cabellin-de-trigo', 'sugerencia' => '',

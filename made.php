@@ -78,7 +78,7 @@ if ($_SESSION['lang'] == 'eng') {
                         <?php
 if ($_SESSION['lang'] == 'eng') {
     ?>
-                        <p class="t2"> Palmex has the ability to make customized products based on the
+                        <p class="t2"> Palmex® has the ability to make customized products based on the
                             specific needs of each customer.
                             <br><br>
 
@@ -88,38 +88,40 @@ if ($_SESSION['lang'] == 'eng') {
                             kale, carrots, cauliflower, sweet potato).
                             <br><br>
 
-                            These products can.be produced in different packaging such as
+                            These products can be produced in different packaging such as
                             boxes, sacks and super sacks in different weights. In addition, we
                             can develop products with specific characteristics such as low
                             sodium, low acrylamide, Non GMO, organic, clean label, Kosher and
                             with natural colorings and/or flavorings.
                             <br><br>
 
-                            We have product developments for frying or exploding in hot air.</p>
+                            We have product developments for frying or exploding in hot air.
+                        </p>
                         <?php } else {?>
-                            <p class="t2"> Palmex tiene la capacidad para hacer productos a la medida y
-    con base a las necesidades específicas de cada cliente.
-    <br><br>
-    Figuras en diversas formas con harinas de trigo, integrales, maíz,
-    papa, arroz, leguminosas (lenteja, garbanzo, chícharos, frijol),
-    granos ancestrales (quinoa, amaranto, chía) y vegetales (espinaca,
-    tomate, betabel, kale, zanahoria, coliflor, camote).
-    <br><br>
-    Estos productos se podrán elaborar en diferentes empaques como
-    cajas, sacos y supersacos en diversos gramajes. Además, podemos
-    desarrollar productos con características específicas como bajos en
-    sodio, bajos en acrilamidas, Non GMO, orgánicos, clean label,
-    Kosher y con colorantes y/o saborizantes naturales.
-    <br><br>
-    Contamos con desarrollos de productos para freírse o explotarse
-    en aire caliente.</p>
+                        <p class="t2"> Palmex® tiene la capacidad para hacer productos a la medida y
+                            con base a las necesidades específicas de cada cliente.
+                            <br><br>
+                            Figuras en diversas formas con harinas de trigo, integrales, maíz,
+                            papa, arroz, leguminosas (lenteja, garbanzo, chícharos, frijol),
+                            granos ancestrales (quinoa, amaranto, chía) y vegetales (espinaca,
+                            tomate, betabel, kale, zanahoria, coliflor, camote).
+                            <br><br>
+                            Estos productos se podrán elaborar en diferentes empaques como
+                            cajas, sacos y supersacos en diversos gramajes. Además, podemos
+                            desarrollar productos con características específicas como bajos en
+                            sodio, bajos en acrilamidas, Non GMO, orgánicos, clean label,
+                            Kosher y con colorantes y/o saborizantes naturales.
+                            <br><br>
+                            Contamos con desarrollos de productos para freírse o explotarse
+                            en aire caliente.
+                        </p>
                         <?php }?>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/jquery-3.3.1.min.js"></script>

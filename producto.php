@@ -51,12 +51,12 @@ $productos = array(
         'ingredientes' => 'papa', 'nombre' => 'MINI RUEDA PAPA MAX´S PLUS 15KG', 'sku' => 'PTPVMX004', 'nombre-eng' => 'POTATO MAX´S MINI WHEEL 33LB'),
     'mini-rueda-premium-de-papa' => array('imagenes' => 'papa/mini-rueda-premium-de-papa', 'sugerencia' => 'j-sn-q',
         'ingredientes' => 'papa', 'nombre' => 'MINI RUEDA PAPA MAX´S 15KG', 'sku' => 'PTPVMX008'),
-    'ondipapas-papa' => array('imagenes' => 'papa/ondipapas-de-papa', 'sugerencia' => 'q-j-f-cl',
+    'ondipapas-papa' => array('imagenes' => 'papa/ondipapas-de-papa', 'sugerencia' => 'q-sn-j',
         'ingredientes' => 'papa', 'nombre' => 'ONDIPAPAS 8KG', 'sku' => 'PPPREH010', 'nombre-eng' => 'RIPPLED POTATO CHIP 17.6LB'),
     'palito-max-papa' => array('imagenes' => 'papa/palito-max-de-papa', 'sugerencia' => 'q-j-f-cl',
         'ingredientes' => 'papa', 'nombre' => 'PALITO PAPA MAX´S 15KG', 'sku' => 'PTPVMX002', 'nombre-eng' => 'POTATO MAX´S STICK 33LB'),
-    'rueda-max-papa' => array('imagenes' => 'papa/rueda-max-de-papa', 'sugerencia' => 'q-j-f-cl',
-        'ingredientes' => 'papa', 'nombre' => 'CONCHA DE MAÍZ 20KG', 'sku' => 'PMMAIZ005', 'nombre-eng' => 'POTATO MAX´S WHEEL 44LB'),
+    'rueda-max-de-papa' => array('imagenes' => 'papa/rueda-max-de-papa', 'sugerencia' => 'q-j-f-cl',
+        'ingredientes' => 'papa', 'nombre' => 'RUEDA PAPA MAX´S 15KG', 'sku' => 'PTPVMX008', 'nombre-eng' => 'POTATO MAX´S WHEEL 44LB'),
     'veggie-chip-espinaca-papa' => array('imagenes' => 'papa/veggie-chip-espinaca-de-papa', 'sugerencia' => 'c-sm',
         'ingredientes' => 'papa', 'nombre' => 'VEGGIE CHIP ESPINACA 8KG', 'sku' => 'PPPREF007', 'nombre-eng' => 'SPINACH VEGGIE CHIPS 18LB'),
     'veggie-chip-natural-papa' => array('imagenes' => 'papa/veggie-chip-natural-de-papa', 'sugerencia' => 'c-sm',
@@ -82,7 +82,7 @@ $productos = array(
         'ingredientes' => 'trigo', 'nombre' => '2x3 LISO 15KG', 'sku' => 'PTFTBR009', 'nombre-eng' => '2x3 PLAIN 33LB'),
     '4x4-trigo' => array('imagenes' => 'trigo/4x4-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => '4x4 15KG', 'sku' => 'PTFTBR001', 'nombre-eng' => '4x4 33LB'),
-    '4x8-trigo' => array('imagenes' => 'trigo/4x8-de-trigo', 'sugerencia' => 'j-f-cl', 'extra' => 'duritos2',
+    '4x8-trigo' => array('imagenes' => 'trigo/4x8-de-trigo', 'sugerencia' => 'sug-duritos', 'extra' => 'duritos2',
         'ingredientes' => 'trigo', 'nombre' => '4x8 15KG', 'sku' => 'PTFTBR004', 'nombre-eng' => '4x8 33LB'),
     'anillo-trigo' => array('imagenes' => 'trigo/anillo-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'ANILLO 20KG', 'sku' => 'PTFTAR008', 'nombre-eng' => 'RING 44LB'),
@@ -95,16 +95,16 @@ $productos = array(
     'cuadri-bacon-grande-trigo' => array('imagenes' => 'trigo/cuadri-bacon-grande-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'CUADRI BACON GRANDE 15KG', 'sku' => 'PTFTBR011', 'nombre-eng' => 'LARGE CUADRI BACON 33LB'),
     'cuadri-liso-grande-trigo' => array('imagenes' => 'trigo/cuadri-liso-grande-de-trigo', 'sugerencia' => 'j-f-cl',
-        'ingredientes' => 'trigo', 'nombre' => 'CUADRI LISO GRANDE 15KG', 'sku' => 'PTFTBR058'),
+        'ingredientes' => 'trigo', 'nombre' => 'CUADRI LISO GRANDE 15KG', 'sku' => 'PTFTBR058', 'nombre-eng' => 'LARGE SMOOTH CUADRI 33LB'),
     'cuadrini-trigo' => array('imagenes' => 'trigo/cuadrini-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'CUADRINI 20KG', 'sku' => 'PTFTBR019', 'nombre-eng' => 'CUADRINI 44LB'),
     'donita-trigo' => array('imagenes' => 'trigo/donita-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'DONITA 20KG', 'sku' => 'PTFTAR009', 'nombre-eng' => 'DOUGHNUT 44LB'),
     'espacial-trigo' => array('imagenes' => 'trigo/espacial-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'ESPACIAL 15KG', 'sku' => 'PTFTAR003', 'nombre-eng' => 'SPACE 33LB'),
-    'magno-rendidor-trigo' => array('imagenes' => 'trigo/magno-rendidor-20-de-trigo', 'sugerencia' => 'j-f-cl', 'extra' => 'duritos2',
+    'magno-rendidor-trigo' => array('imagenes' => 'trigo/magno-rendidor-20-de-trigo', 'sugerencia' => 'sug-duritos', 'extra' => 'duritos2',
         'ingredientes' => 'trigo', 'nombre' => 'MAGNO RENDIDOR 20KG', 'sku' => 'PT10CL010', 'nombre-eng' => 'MAGNO RENDIDOR 44LB'),
-    'magno-retro-trigo' => array('imagenes' => 'trigo/magno-retro-de-trigo', 'sugerencia' => 'j-f-cl', 'extra' => 'duritos2',
+    'magno-retro-trigo' => array('imagenes' => 'trigo/magno-retro-de-trigo', 'sugerencia' => 'sug-duritos', 'extra' => 'duritos2',
         'ingredientes' => 'trigo', 'nombre' => 'MAGNO RETRO 20KG', 'sku' => 'PT10CL007', 'nombre-eng' => 'MAGNO RETRO 44LB'),
     'mini-cuadro-trigo' => array('imagenes' => 'trigo/mini-cuadro-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'MINI CUADRO 20KG', 'sku' => 'PTFTAR005', 'nombre-eng' => 'MINI SQUARE 44LB'),
@@ -119,7 +119,7 @@ $productos = array(
     'pal-mix-mega-trigo' => array('imagenes' => 'trigo/pal-mix-mega-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'PAL MIX MEGA 15KG', 'sku' => 'PTFTBR056', 'nombre-eng' => 'PAL MIX MEGA 33LB'),
     'palillo-trigo' => array('imagenes' => 'trigo/palillo-de-trigo', 'sugerencia' => 'j-f-cl',
-        'ingredientes' => 'trigo', 'nombre' => 'PALILLO 15KG', 'sku' => 'PTFTAR008'),
+        'ingredientes' => 'trigo', 'nombre' => 'PALILLO 15KG', 'sku' => 'PTFTAR008', 'nombre-eng' => 'TOOTHPICK 33LB'),
     'papas-a-la-francesa-corta-trigo' => array('imagenes' => 'trigo/papas-a-la-francesa-corta-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'PAPA FRANCESA DE TRIGO CORTA 20KG', 'sku' => 'PTFTBR014', 'nombre-eng' => 'FRENCH FRIES WHEAT 44LB'),
     'parilla-trigo' => array('imagenes' => 'trigo/parrilla-de-trigo', 'sugerencia' => 'j-f-cl',
@@ -229,6 +229,13 @@ $productos = array(
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-marca-de-agua producto">
                         <img src="images/logo-marca-de-agua.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="d-image-gluten wow bounceIn" data-wow-delay=".8s">
+                        <img src="images/libre-de-gluten.png" alt="">
                     </div>
                 </div>
             </div>

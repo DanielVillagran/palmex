@@ -71,8 +71,8 @@
     }
 
     /* END RESOLUCION MOVIL FRITO */
-    
-    .row-pellet-frito.duritos2{
+
+    .row-pellet-frito.duritos2 {
         margin-bottom: -100px;
     }
 
@@ -190,6 +190,12 @@
         margin-top: 0px;
     }
 
+    .d-image-gluten {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -70px;
+    }
+
 }
 
 /* ----- RESPONSIVE iPHONE 5/SE ----- */
@@ -227,7 +233,7 @@
 @media only screen and (max-width: 600px) {}
 
 @media only screen and (max-width: 991px) {
-    
+
     .duritos2 .d-image-frito > .frito {
         width: 100% !important;
     }
