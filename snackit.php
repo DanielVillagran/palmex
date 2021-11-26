@@ -45,7 +45,7 @@ session_start();
     <title>Palmex</title>
 </head>
 
-<body class="body-bg snackit">
+<body class="body-bg snackit-back">
     <section class="sec-cat-centered valign">
         <div class="container">
             <div class="row">
