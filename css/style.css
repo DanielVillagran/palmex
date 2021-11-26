@@ -188,7 +188,7 @@ body.body-bg {
 .tocinitos {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/tocinitos.jpg);
 }
-.snackit {
+.snackit.back {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/preloaders/snackit.png);
 }
 
