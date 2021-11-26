@@ -233,7 +233,7 @@ $productos = array(
                 </div>
             </div>
             <?php
-             if($producto.strpos("veggie")){
+             if(strpos($producto, "veggie") !== false){
                  ?>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
