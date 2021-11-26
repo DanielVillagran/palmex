@@ -232,6 +232,9 @@ $productos = array(
                     </div>
                 </div>
             </div>
+            <?php
+             if($producto.strpos("veggie")){
+                 ?>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-image-gluten wow bounceIn" data-wow-delay=".8s">
@@ -239,6 +242,9 @@ $productos = array(
                     </div>
                 </div>
             </div>
+                 <?php
+             }
+                 ?>
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="d-image-medidas wow fadeInUp" data-wow-delay=".4s">
