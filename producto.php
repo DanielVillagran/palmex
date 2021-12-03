@@ -315,7 +315,7 @@ if ($productos[$producto]['ingredientes'] == 'maiz') {
 ?>" alt="">
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-12 col-12 ">
+                <div class="col-lg-<?php if ($productos[$producto]['extra'] &&$productos[$producto]['extra']=='duritos2' echo "7"; else echo "5"; ?> col-md-12 col-12 ">
                     <div class="d-sugerencia wow fadeInUp" data-wow-delay=".6s">
                         <img src="images/sugerencias<?php echo $lang; ?>/<?php echo $productos[$producto]['sugerencia'] ?><?php echo $lang; ?>.png" alt="">
                     </div>
