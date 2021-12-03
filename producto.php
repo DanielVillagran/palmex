@@ -137,9 +137,9 @@ $productos = array(
     'tornillo-trigo' => array('imagenes' => 'trigo/tornillo-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'TORNILLO 15KG', 'sku' => 'PTFTAR002', 'nombre-eng' => 'TWIST 33LB'),
     'tubo-trigo' => array('imagenes' => 'trigo/tubo-de-trigo', 'sugerencia' => 'j-f-cl',
-        'ingredientes' => 'trigo', 'nombre' => 'TUBO 20KG', 'sku' => 'PTFTBR020', 'nombre-eng' => 'TUBI 44LB'),
+        'ingredientes' => 'trigo', 'nombre' => 'TUBO 20KG', 'sku' => 'PTFTBR020', 'nombre-eng' => 'TUBE 44LB'),
     'tubo-grande-trigo' => array('imagenes' => 'trigo/tubo-grande-de-trigo', 'sugerencia' => 'j-f-cl',
-        'ingredientes' => 'trigo', 'nombre' => 'TUBO GRANDE 15KG', 'sku' => 'PTFTBR008', 'nombre-eng' => 'BIG TUBI 33LB'),
+        'ingredientes' => 'trigo', 'nombre' => 'TUBO GRANDE 15KG', 'sku' => 'PTFTBR008', 'nombre-eng' => 'BIG TUBE 33LB'),
     'zarape-3x2-trigo' => array('imagenes' => 'trigo/zarape-3x2-de-trigo', 'sugerencia' => 'j-f-cl',
         'ingredientes' => 'trigo', 'nombre' => 'ZARAPE 3x2 20KG', 'sku' => 'PTFTBR032', 'nombre-eng' => 'ZARAPE 3x2 44LB'),
 
@@ -320,7 +320,7 @@ if ($productos[$producto]['ingredientes'] == 'maiz') {
                         <img src="images/sugerencias<?php echo $lang; ?>/<?php echo $productos[$producto]['sugerencia'] ?><?php echo $lang; ?>.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-5 col-5 order-lg-last order-first">
+                <div class="col-lg-4 col-md-5 col-5 order-lg-last order-first">
                     <div class="d-presentacion wow fadeInUp" data-wow-delay=".8s">
                         <img src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/presentacion<?php echo $lang; ?>.png" alt="">
                     </div>
