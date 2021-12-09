@@ -320,7 +320,7 @@ if ($productos[$producto]['ingredientes'] == 'maiz') {
                         <img src="images/sugerencias<?php echo $lang; ?>/<?php echo $productos[$producto]['sugerencia'] ?><?php echo $lang; ?>.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 col-5 order-lg-last order-first">
+                <div class="col-lg-3 col-md-5 col-5 order-lg-last order-first">
                     <div class="d-presentacion wow fadeInUp" data-wow-delay=".8s">
                         <img src="productos/platos/<?php echo $productos[$producto]['imagenes'] ?>/presentacion<?php echo $lang; ?>.png" alt="">
                     </div>
